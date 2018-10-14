@@ -16,25 +16,32 @@
 		"oAP": "/.htaccess",
 		"oF": 0
 		},
-	"/functions.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/functions.php",
-		"oF": 0
-		},
-	"/header.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/header.php",
-		"oF": 0
-		},
 	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/index.php",
+		"oF": 0
+		},
+	"/templates/functions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/functions.php",
+		"oF": 0
+		},
+	"/templates/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/header.php",
+		"oF": 0
+		},
+	"/templates/home/home.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/home/home.php",
 		"oF": 0
 		}
 	},

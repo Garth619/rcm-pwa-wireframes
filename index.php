@@ -1,12 +1,11 @@
 <?php //index
 	
-	include('functions.php');
-	include('header.php');
-	
+	include('templates/functions.php');
+	include('templates/header.php');
+	include('templates/home/home.php');
+
 ?>
 
-
-<a href="<?php echo $path;?>/page-two">2</a>
 
 
 
