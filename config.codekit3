@@ -29,6 +29,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/css/scss/partials/_reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/css/scss/partials/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/css/scss/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -58,6 +84,26 @@
 		"oA": 0,
 		"oAP": "/css/styles.css.map",
 		"oF": 0
+		},
+	"/images/icon-phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icon-phone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/logo-final-two.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/logo-final-two.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/index.php": {
 		"cB": 0,
