@@ -16,6 +16,19 @@
 		"oAP": "/.htaccess",
 		"oF": 0
 		},
+	"/css/scss/partials/_global.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_global.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/css/scss/partials/_header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -38,6 +51,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/scss/partials/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/css/scss/partials/_notifications.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_notifications.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -216,6 +242,16 @@
 		"oAP": "/index.php",
 		"oF": 0
 		},
+	"/js/custom-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/custom-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/custom.js": {
 		"ft": 64,
 		"ma": 0,
@@ -262,6 +298,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/home/home.php",
+		"oF": 0
+		},
+	"/templates/navigation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/navigation.php",
+		"oF": 0
+		},
+	"/templates/notifications.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/notifications.php",
 		"oF": 0
 		}
 	},

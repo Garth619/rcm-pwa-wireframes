@@ -6,17 +6,22 @@ jQuery(document).ready(function($){
 
 	// nav
 
-	$('.menu_wrapper').on('click', function(e) {
+	$('#menu_wrapper').on('click', function(e) {
 	  
 		$('nav').addClass('open');
 	
 	});
 	
-	$('.close').on('click', function(e) {
+	$('.close_overlay').on('click', function(e) {
 	  
 		$('nav').removeClass('open');
 	
 	});
+	
+	// notification center
+	
+	
+	
 
 	
 
