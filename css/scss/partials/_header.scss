@@ -28,6 +28,8 @@ header {
 .header_right {
 	display: flex;
 	align-items: center;
+	justify-content: flex-end;
+	flex-grow:1;
 }
 
 
