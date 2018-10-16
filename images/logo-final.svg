@@ -1,21 +1,7 @@
 <svg id="rcm_logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2245.09 636.96">
   <defs>
     <style>
-      .rcm_logo-cls-1 {
-        fill: none;
-      }
-
-      .rcm_logo-cls-2 {
-        clip-path: url(#clip-path);
-      }
-
-      .rcm_logo-cls-3 {
-        fill: #ddb263;
-      }
-
-      .rcm_logo-cls-4 {
-        fill: #fff;
-      }
+      
     </style>
     <clipPath id="clip-path">
       <polygon class="rcm_logo-cls-1" points="375.31 27.99 37.62 612.88 713 612.88 375.31 27.99"/>

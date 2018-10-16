@@ -7,3 +7,37 @@
 	-webkit-overflow-scrolling: touch;
 	overflow-y:scroll;
 }
+
+
+.close_overlay {
+		width:33px;
+		height:33px;
+		border-radius: 50%;
+		border:2px solid #fff;
+		position: absolute;
+		top:20px;
+		right:0;
+		cursor: pointer;
+		&:before, &:after {
+			content:"";
+			display: block;
+			width:70%;
+			height:2px;
+			background: #fff;
+			transform-origin: 0px 0px 0;
+			transform:rotate(0deg);
+			transition: all 400ms cubic-bezier(.17,.66,.34,.98);
+			position: absolute;
+			top:12px;
+			left:4px;
+		}
+		&:before {
+			
+		}
+		&:after {
+			
+		}
+	}
+	
+	
+

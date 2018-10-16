@@ -4,7 +4,7 @@
 			
 			<div class="close_overlay"></div><!-- close -->
 			
-			<div class="notification_feed">
+			<div class="notification_feed new_notifications">
 				
 				<span class="notification_title">Notifications</span><!-- notification_title -->
 				

@@ -12,18 +12,25 @@ jQuery(document).ready(function($){
 	
 	});
 	
-	$('.close_overlay').on('click', function(e) {
-	  
-		$('nav').removeClass('open');
 	
-	});
 	
 	// notification center
 	
+	$('#notifications_wrapper').on('click', function(e) {
+	  
+		$('#notifications').addClass('open');
 	
+	});
 	
+	// All Overlays
+	
+	$('.close_overlay').on('click', function(e) {
+	  
+	$('nav, #notifications').removeClass('open');
+	
+	});
 
-	
+
 
 }); // Document Ready
 

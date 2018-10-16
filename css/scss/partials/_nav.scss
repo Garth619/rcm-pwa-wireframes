@@ -16,56 +16,7 @@ nav {
 	position: relative;
 }
 
-.close_overlay {
-		width:33px;
-		height:33px;
-		border-radius: 50%;
-		border:2px solid #fff;
-		position: absolute;
-		top:20px;
-		right:0;
-		&:before, &:after {
-			content:"";
-			display: block;
-			width:70%;
-			height:2px;
-			background: #fff;
-			transform-origin: 0px 0px 0;
-			transform:rotate(0deg);
-			transition: all 400ms cubic-bezier(.17,.66,.34,.98);
-			position: absolute;
-			top:12px;
-			left:4px;
-		}
-		&:before {
-			
-		}
-		&:after {
-			
-		}
-	}
 	
-
-
-
-
-
-
-
-/*
-.close_overlay.open {
-	&:before {
-		transform-origin: 0px 0px 0;
-		transform:rotate(0deg);
-	}
-	&:after {
-		transform-origin: 26px 1px 0;
-		transform:rotate(0deg);
-	}
-}
-*/
-
-
 
 
 	.menu_profile {

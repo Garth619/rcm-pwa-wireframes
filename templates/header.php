@@ -14,6 +14,8 @@
 
 </style>
 
+<script type="text/javascript" src="<?php echo $path;?>/js/custom-min.js"></script>
+
 </head>
 <body>
 
@@ -63,7 +65,7 @@
 	<?php
 		
 		include('templates/notifications.php');
-		include('templates/notifications.php');
+		include('templates/navigation.php');
 	
 	?>
 	
