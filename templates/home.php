@@ -1,4 +1,20 @@
-<span class="" style="padding-top:200px;color:#fff">heee</span>
+<section id="home_slides_wrapper">
+	
+	<div id="home_slider">
+		
+		<div class="home_single_slide">
+			
+			
+			
+		</div><!-- home_single_slide -->
+		
+	</div><!-- home_slider -->
+	
+</section><!-- home_slides_wrapper -->
+
+
+
+
 
 <script type="text/javascript">
 

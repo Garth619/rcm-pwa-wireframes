@@ -20,7 +20,7 @@
 				
 				<li>
 					
-					<a href="">
+					<a href="<?php echo $path;?>">
 						
 						<span class="menu_icon">
 							
@@ -52,7 +52,7 @@
 				
 				<li>
 					
-					<a href="">
+					<a href="<?php echo $path;?>/templates/about.php">
 						
 						<span class="menu_icon">
 							
