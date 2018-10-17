@@ -137,6 +137,16 @@
 		"oAP": "/css/styles.css.map",
 		"oF": 0
 		},
+	"/images/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/g.jpg": {
 		"ft": 16384,
 		"iS": 29353,
@@ -247,6 +257,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/slide-one.png": {
+		"ft": 32768,
+		"iS": 116121,
+		"oA": 0,
+		"oAP": "/images/slide-one.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/index.php": {
 		"cB": 0,

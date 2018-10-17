@@ -12,7 +12,7 @@
 					
 					<div class="notification_left">
 						
-						<span style="background:#00c3c3"><?php echo file_get_contents("images/icon-rewards.svg"); ?></span>
+						<span style="background:#00c3c3"><?php echo file_get_contents("" . $path . "/images/icon-rewards.svg"); ?></span>
 						
 					</div><!-- notification_left -->
 					
@@ -30,7 +30,7 @@
 					
 					<div class="notification_left">
 						
-						<span style="background:linear-gradient(135deg, #f99460 0%,#e4522e 100%);"><?php echo file_get_contents("images/icon-events.svg"); ?></span>
+						<span style="background:linear-gradient(135deg, #f99460 0%,#e4522e 100%);"><?php echo file_get_contents("" . $path . "/images/icon-events.svg"); ?></span>
 						
 					</div><!-- notification_left -->
 					
@@ -49,7 +49,7 @@ and sample of our latest strains!</span><!-- single_notification_description -->
 					
 					<div class="notification_left">
 						
-						<span  style="background:linear-gradient(135deg, #00adc5 0%,#4174be 100%);"><?php echo file_get_contents("images/icon-review.svg"); ?></span>
+						<span  style="background:linear-gradient(135deg, #00adc5 0%,#4174be 100%);"><?php echo file_get_contents("" . $path . "/images/icon-review.svg"); ?></span>
 						
 					</div><!-- notification_left -->
 					
@@ -74,7 +74,7 @@ feedback that you might have!</span><!-- single_notification_description -->
 					
 					<div class="notification_left">
 						
-						<span><?php echo file_get_contents("images/icon-shop.svg"); ?></span>
+						<span><?php echo file_get_contents("" . $path . "/images/icon-shop.svg"); ?></span>
 						
 					</div><!-- notification_left -->
 					

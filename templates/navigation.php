@@ -24,7 +24,7 @@
 						
 						<span class="menu_icon">
 							
-							<?php echo file_get_contents("images/icon-home.svg"); ?>
+							<?php echo file_get_contents("" . $path . "/images/icon-home.svg"); ?>
 						
 						</span><!-- menu_icon -->
 						
@@ -40,7 +40,7 @@
 						
 						<span class="menu_icon">
 							
-							<?php echo file_get_contents("images/icon-shop.svg"); ?>
+							<?php echo file_get_contents("" . $path . "/images/icon-shop.svg"); ?>
 						
 						</span><!-- menu_icon -->
 						
@@ -56,7 +56,7 @@
 						
 						<span class="menu_icon">
 							
-							<?php echo file_get_contents("images/icon-about.svg"); ?>
+							<?php echo file_get_contents("" . $path . "/images/icon-about.svg"); ?>
 						
 						</span><!-- menu_icon -->
 						
@@ -72,7 +72,7 @@
 						
 						<span class="menu_icon">
 							
-							<?php echo file_get_contents("images/icon-rewards.svg"); ?>
+							<?php echo file_get_contents("" . $path . "/images/icon-rewards.svg"); ?>
 						
 						</span><!-- menu_icon -->
 						
@@ -88,7 +88,7 @@
 						
 						<span class="menu_icon">
 							
-							<?php echo file_get_contents("images/icon-gallery.svg"); ?>
+							<?php echo file_get_contents("" . $path . "/images/icon-gallery.svg"); ?>
 						
 						</span><!-- menu_icon -->
 						
@@ -104,7 +104,7 @@
 						
 						<span class="menu_icon">
 							
-							<?php echo file_get_contents("images/icon-events.svg"); ?>
+							<?php echo file_get_contents("" . $path . "/images/icon-events.svg"); ?>
 						
 						</span><!-- menu_icon -->
 						
@@ -120,7 +120,7 @@
 						
 						<span class="menu_icon">
 							
-							<?php echo file_get_contents("images/icon-review.svg"); ?>
+							<?php echo file_get_contents("" . $path . "/images/icon-review.svg"); ?>
 						
 						</span><!-- menu_icon -->
 						
@@ -136,7 +136,7 @@
 						
 						<span class="menu_icon">
 							
-							<?php echo file_get_contents("images/icon-phone-menu.svg"); ?>
+							<?php echo file_get_contents("" . $path . "/images/icon-phone-menu.svg"); ?>
 						
 						</span><!-- menu_icon -->
 						

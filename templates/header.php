@@ -25,7 +25,7 @@
 		
 		<a id="logo" href="<?php echo $path;?>">
 			
-			<?php echo file_get_contents("images/logo-final.svg"); ?>
+			<?php echo file_get_contents("" . $path . "/images/logo-final.svg"); ?>
 			
 		</a><!-- logo -->
 		
@@ -37,7 +37,7 @@
 			
 			<a href="">
 				
-				<?php echo file_get_contents("images/icon-phone.svg"); ?>
+				<?php echo file_get_contents("" . $path . "/images/icon-phone.svg"); ?>
 				
 			</a>
 			
@@ -64,8 +64,8 @@
 	
 	<?php
 		
-		include('templates/notifications.php');
-		include('templates/navigation.php');
+		include('notifications.php');
+		include('navigation.php');
 	
 	?>
 	
