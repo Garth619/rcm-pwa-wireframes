@@ -29,6 +29,16 @@ jQuery(document).ready(function($){
 	$('nav, #notifications').removeClass('open');
 	
 	});
+	
+	
+	// Promo Slides
+	
+	
+	$('.tap').on('click', function(e) {
+	  
+	  // something very simple like https://www.w3schools.com/howto/howto_js_slideshow.asp
+	  
+	});
 
 
 

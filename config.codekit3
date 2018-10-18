@@ -42,7 +42,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/css/scss/partials/_home.scss": {
+	"/css/scss/partials/_loadscreen.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -50,7 +50,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/scss/partials/_home.css",
+		"oAP": "/css/scss/partials/_loadscreen.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -77,6 +77,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/scss/partials/_notifications.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/css/scss/partials/_promo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_promo.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -146,6 +159,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/b.png": {
+		"ft": 32768,
+		"iS": 576318,
+		"oA": 0,
+		"oAP": "/images/b.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/g.jpg": {
 		"ft": 16384,
@@ -248,11 +272,32 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/load-weed.jpg": {
+		"ft": 16384,
+		"iS": 60171,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/load-weed.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/logo-final.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/logo-final.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/logo-square.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/logo-square.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -268,6 +313,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/up-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/up-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/index.php": {
 		"cB": 0,
@@ -341,6 +396,13 @@
 		"oAP": "/templates/home.php",
 		"oF": 0
 		},
+	"/templates/loadscreen.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/loadscreen.php",
+		"oF": 0
+		},
 	"/templates/navigation.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -353,6 +415,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/notifications.php",
+		"oF": 0
+		},
+	"/templates/promo.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/promo.php",
 		"oF": 0
 		}
 	},

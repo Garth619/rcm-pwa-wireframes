@@ -1,0 +1,18 @@
+#loadscreen {
+	display: none;
+	width:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100vh;
+	z-index:1000;
+	background:linear-gradient(rgba(190, 89, 202, 0.93), rgba(228, 81, 45, 0.93)) repeat scroll 0 0%, url(../images/load-weed.jpg) top left no-repeat;
+	background-size:cover;
+	background-position: top center;
+
+	//background:linear-gradient(135deg, #be59ca 0%,#e4512d 100%) repeat scroll 0 0%, url(../images/b.png) top left no-repeat;
+	
+	}
+
+

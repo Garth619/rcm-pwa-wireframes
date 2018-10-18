@@ -8,4 +8,8 @@ t("#menu_wrapper").on("click",function(e){t("nav").addClass("open")}),
 // notification center
 t("#notifications_wrapper").on("click",function(e){t("#notifications").addClass("open")}),
 // All Overlays
-t(".close_overlay").on("click",function(e){t("nav, #notifications").removeClass("open")})});// Document Ready
+t(".close_overlay").on("click",function(e){t("nav, #notifications").removeClass("open")}),
+// Promo Slides
+t(".tap").on("click",function(e){
+// something very simple like https://www.w3schools.com/howto/howto_js_slideshow.asp
+})});// Document Ready

@@ -20,7 +20,7 @@
 				
 				<li>
 					
-					<a href="<?php echo $path;?>">
+					<a href="<?php echo $path;?>/templates/home.php">
 						
 						<span class="menu_icon">
 							
