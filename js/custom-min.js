@@ -12,4 +12,6 @@ t(".close_overlay").on("click",function(e){t("nav, #notifications").removeClass(
 // Promo Slides
 t(".tap").on("click",function(e){
 // something very simple like https://www.w3schools.com/howto/howto_js_slideshow.asp
-})});// Document Ready
+}),
+// load screen animation
+t(".progress_bar").addClass("load"),t("#loadscreen").delay(2400).fadeOut(700)});// Document Ready

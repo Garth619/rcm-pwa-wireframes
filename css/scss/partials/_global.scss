@@ -52,6 +52,62 @@
         fill: #fff;
       }
 	}
+	
+	
+	.template_section {
+	
+	}
+	
+	.inner_section {
 		
+	}
+
+// content
+
+h1, h2, h3, h4, h5, h6 {
+	font-style: normal;
+	display: block;
+}
+
+.content {
+	color:#fff;
+	font-family: $libre;
+	font-size:16px;
+	line-height: 23px;
+	letter-spacing: 0.075em;
+	span.sub_title {
+		display: block;
+		color:$teal;
+		text-transform: uppercase;
+		font-size:14px;
+		letter-spacing: 0.12em;
+		font-family: $oswald;
+		font-weight: 600;
+		margin-bottom:18px;
+	}
+	h1 {
+		font-family: $muli;
+		font-weight: 400;
+		font-size:32px;
+		line-height: 37px;
+		margin-bottom:20px;
+	}
+	p {
+		margin-bottom:23px;
+	}
+	blockquote {
+		text-transform: uppercase;
+		font-size:18px;
+		font-family: $muli;
+		font-weight:700;
+		letter-spacing: 0.1em;
+		line-height: 23px;
+		border-top:2px solid $teal;
+		border-bottom:2px solid $teal;
+		display: block;
+		margin:25px 0 32px;
+		padding:18px 0;
+	}
+}
 	
 

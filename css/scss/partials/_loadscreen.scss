@@ -1,5 +1,5 @@
 #loadscreen {
-	display: none;
+	//display: none;
 	width:100%;
 	position: fixed;
 	top:0;
@@ -10,9 +10,55 @@
 	background:linear-gradient(rgba(190, 89, 202, 0.93), rgba(228, 81, 45, 0.93)) repeat scroll 0 0%, url(../images/load-weed.jpg) top left no-repeat;
 	background-size:cover;
 	background-position: top center;
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	//background:linear-gradient(135deg, #be59ca 0%,#e4512d 100%) repeat scroll 0 0%, url(../images/b.png) top left no-repeat;
-	
+}
+
+
+.loadscreen_inner {
+	width: 55%;
+	max-width:400px;
+	margin-top:-75px;
+	img {
+		width: 100%;
+		display: block;
+		height:auto;
+		margin:0 auto;
 	}
+	.progress_bar.load {
+		&:before {
+			transform: scaleX(1);
+		}
+	}
+	.progress_bar {
+		width:100%;
+		height:8px;
+		margin-top:8px;
+		border-radius: 5px;
+		position: relative;
+		&:before, &:after {
+			content:"";
+			height:8px;
+			display: block;
+			position: absolute;
+			top:0;
+			left:0;
+			width:100%;
+			border-radius: 5px;
+		}
+		&:before {
+			background: #fff;
+			transform: scaleX(0);
+			transform-origin: 0 0 0;
+			transition: transform 2100ms ease-in-out;
+		}
+		&:after {
+			border:1px solid #fff;
+			
+		}
+	}
+}
 
 

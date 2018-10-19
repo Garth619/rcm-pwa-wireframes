@@ -1,3 +1,11 @@
+<?php
+   
+   $user_is_first_timer = !isset( $_COOKIE["FirstTimer"] );
+	 setcookie( "FirstTimer", 1, strtotime( '+1 year' ) );
+	
+	 // sets loadscreen animation to just load once
+	
+?>
 <!DOCTYPE html>
 <html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
@@ -10,7 +18,7 @@
 	<meta name="keywords" content=""/>
 <style type="text/css">
 
-@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700|Oswald:600');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Muli:400,600,700|Oswald:600');
 
 </style>
 
@@ -18,6 +26,22 @@
 
 </head>
 <body>
+	
+	<?php if( $user_is_first_timer ): ?>
+	
+		<section id="loadscreen">
+	
+			<div class="loadscreen_inner">
+		
+				<img src="<?php echo $path;?>/images/logo-final-01.png"/>
+		
+				<div class="progress_bar"></div><!-- progress_bar -->
+		
+			</div><!-- loadscreen_inner -->
+	
+		</section><!-- loadscreen -->
+
+	<?php endif;?>
 
 <header>
 	
