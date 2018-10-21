@@ -59,7 +59,7 @@
 	}
 	
 	.inner_section {
-		
+		padding:0 30px;
 	}
 
 // content
@@ -67,6 +67,13 @@
 h1, h2, h3, h4, h5, h6 {
 	font-style: normal;
 	display: block;
+	font-family: $muli;
+	font-weight: 600;
+	color:#fff;
+	text-transform: uppercase;
+	font-size:23px;
+	letter-spacing: 0.08em;
+	line-height: 26px;
 }
 
 .content {
@@ -84,6 +91,9 @@ h1, h2, h3, h4, h5, h6 {
 		font-family: $oswald;
 		font-weight: 600;
 		margin-bottom:18px;
+	}
+	h1.section_title {
+		color:#fff;
 	}
 	h1 {
 		font-family: $muli;
@@ -109,5 +119,19 @@ h1, h2, h3, h4, h5, h6 {
 		padding:18px 0;
 	}
 }
+
+
+.section_template {
+	margin-top:108px;
+}
+
+.inner_section {
+	h1.section_title {
+		text-align: center;
+	}
+}
+
+
+
 	
 

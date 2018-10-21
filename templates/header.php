@@ -18,7 +18,7 @@
 	<meta name="keywords" content=""/>
 <style type="text/css">
 
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Muli:400,600,700|Oswald:600');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Muli:400,600,700,900|Oswald:600');
 
 </style>
 

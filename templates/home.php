@@ -3,10 +3,10 @@
 	include('functions.php');
 	include('header.php');?>
 	
-	<section id="home" class="template_section">
+	<section id="home" class="section_template">
 		
 		
-		<div id="inner_home" class="inner_section">
+		<div id="inner_home">
 			
 			<img class="banner" src="<?php echo $path;?>/images/banner.jpg"/>
 			
@@ -26,7 +26,7 @@
 			
 		</div><!-- inner_home -->
 		
-		
+	</section><!-- home -->
 
 	
 <?php

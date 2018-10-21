@@ -54,6 +54,17 @@ jQuery(document).ready(function($){
 	
 	$('#loadscreen').delay(2400).fadeOut(700);
 	
+
+	// events
+	
+	
+	$('.event_buttons span').on('click', function(e) {
+		
+		$(this).siblings().removeClass('clicked');
+	  
+		$(this).addClass('clicked');
+	
+	});
 	
 
 

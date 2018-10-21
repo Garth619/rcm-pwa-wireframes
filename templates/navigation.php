@@ -100,7 +100,7 @@
 				
 				<li>
 					
-					<a href="">
+					<a href="<?php echo $path;?>/templates/events.php">
 						
 						<span class="menu_icon">
 							
