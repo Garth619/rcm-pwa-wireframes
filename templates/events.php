@@ -36,13 +36,13 @@
 							
 						</div><!-- event_buttons -->
 						
-						<div class="read_more_button">
+					</div><!-- single_event_details -->
+					
+					<div class="read_more_button">
 							
 							<?php echo file_get_contents("" . $path . "/images/up-arrow.svg"); ?>
 							
 						</div><!-- read_more_button -->
-						
-					</div><!-- single_event_details -->
 					
 				</div><!-- single_event -->
 				
@@ -71,13 +71,13 @@
 							
 						</div><!-- event_buttons -->
 						
-						<div class="read_more_button">
+					</div><!-- single_event_details -->
+					
+					<div class="read_more_button">
 							
 							<?php echo file_get_contents("" . $path . "/images/up-arrow.svg"); ?>
 							
 						</div><!-- read_more_button -->
-						
-					</div><!-- single_event_details -->
 					
 				</div><!-- single_event -->
 				
@@ -106,13 +106,13 @@
 							
 						</div><!-- event_buttons -->
 						
-						<div class="read_more_button">
+					</div><!-- single_event_details -->
+					
+					<div class="read_more_button">
 							
 							<?php echo file_get_contents("" . $path . "/images/up-arrow.svg"); ?>
 							
 						</div><!-- read_more_button -->
-						
-					</div><!-- single_event_details -->
 					
 				</div><!-- single_event -->
 				
@@ -141,13 +141,13 @@
 							
 						</div><!-- event_buttons -->
 						
-						<div class="read_more_button">
+					</div><!-- single_event_details -->
+					
+					<div class="read_more_button">
 							
 							<?php echo file_get_contents("" . $path . "/images/up-arrow.svg"); ?>
 							
 						</div><!-- read_more_button -->
-						
-					</div><!-- single_event_details -->
 					
 				</div><!-- single_event -->
 				
@@ -176,13 +176,13 @@
 							
 						</div><!-- event_buttons -->
 						
-						<div class="read_more_button">
+					</div><!-- single_event_details -->
+					
+					<div class="read_more_button">
 							
 							<?php echo file_get_contents("" . $path . "/images/up-arrow.svg"); ?>
 							
 						</div><!-- read_more_button -->
-						
-					</div><!-- single_event_details -->
 					
 				</div><!-- single_event -->
 				
@@ -211,15 +211,16 @@
 							
 						</div><!-- event_buttons -->
 						
-						<div class="read_more_button">
+					</div><!-- single_event_details -->
+					
+					<div class="read_more_button">
 							
 							<?php echo file_get_contents("" . $path . "/images/up-arrow.svg"); ?>
 							
-						</div><!-- read_more_button -->
-						
-					</div><!-- single_event_details -->
+					</div><!-- read_more_button -->
 					
 				</div><!-- single_event -->
+
 				
 			</div><!-- events_feed -->
 			

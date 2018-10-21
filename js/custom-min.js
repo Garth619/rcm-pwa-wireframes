@@ -16,4 +16,6 @@ t(".tap").on("click",function(e){
 // load screen animation
 t(".progress_bar").addClass("load"),t("#loadscreen").delay(2400).fadeOut(700),
 // events
-t(".event_buttons span").on("click",function(e){t(this).siblings().removeClass("clicked"),t(this).addClass("clicked")})});// Document Ready
+t(".single_event_details").on("click",function(e){t(this).parent().addClass("open")}),t(".read_more_button").on("click",function(e){t(this).parent().toggleClass("open");
+// $(this).parent().removeClass('open');
+}),t(".event_buttons span").on("click",function(e){t(this).siblings().removeClass("clicked"),t(this).addClass("clicked")})});// Document Ready

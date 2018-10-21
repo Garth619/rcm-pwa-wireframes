@@ -58,6 +58,25 @@ jQuery(document).ready(function($){
 	// events
 	
 	
+	$('.single_event_details').on('click', function(e) {
+		
+		
+		$(this).parent().addClass('open');
+	  
+	});
+	
+	$('.read_more_button').on('click', function(e) {
+			
+			
+			$(this).parent().toggleClass('open');
+		
+			// $(this).parent().removeClass('open');
+	  
+	});
+	
+	
+	
+	
 	$('.event_buttons span').on('click', function(e) {
 		
 		$(this).siblings().removeClass('clicked');
