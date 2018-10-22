@@ -8,13 +8,16 @@ $blacktext: #202020;
 $greytext: #3f3f3f;
 $white: #fff;
 $grey: #384c60;
+$darkgrey: #122829;
 $teal: #00c3c3;
+$blue: #4174be;
 
 // gradients
 
 $purple_orange: linear-gradient(135deg, #be59ca 0%,#e4512d 100%);
 $purple_pink: linear-gradient(135deg, #a849b5 1%,#c84696 100%); 
-$teal_blue: linear-gradient(135deg, #00adc5 0%,#4174be 100%); 
+$teal_blue: linear-gradient(135deg, #00adc5 0%,#4174be 100%);
+$teal_blue_text:  linear-gradient(75deg, #00adc5 0%,#4174be 100%);
 $orange_red:linear-gradient(135deg, #f99460 0%,#e4522e 100%); 
 
 $pink: #c84696;

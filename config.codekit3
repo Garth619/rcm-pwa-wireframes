@@ -81,6 +81,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/css/scss/partials/_loyalty-punchcard.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_loyalty-punchcard.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/css/scss/partials/_nav.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -372,6 +385,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/punchcard_pattern-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/punchcard_pattern-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/punchcard_pattern.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/punchcard_pattern.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/slide-one.png": {
 		"ft": 32768,
 		"iS": 116121,
@@ -470,6 +503,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/home.php",
+		"oF": 0
+		},
+	"/templates/loyalty-punchcard.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/loyalty-punchcard.php",
 		"oF": 0
 		},
 	"/templates/navigation.php": {

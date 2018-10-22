@@ -67,11 +67,15 @@
 h1, h2, h3, h4, h5, h6 {
 	font-style: normal;
 	display: block;
+}
+
+h1.section_title {
+	color:#fff;
+	font-size:23px;
 	font-family: $muli;
 	font-weight: 600;
 	color:#fff;
 	text-transform: uppercase;
-	font-size:23px;
 	letter-spacing: 0.08em;
 	line-height: 26px;
 }
@@ -92,9 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		margin-bottom:18px;
 	}
-	h1.section_title {
-		color:#fff;
-	}
+	
 	h1 {
 		font-family: $muli;
 		font-weight: 400;
@@ -129,6 +131,23 @@ h1, h2, h3, h4, h5, h6 {
 	h1.section_title {
 		text-align: center;
 	}
+}
+
+
+a.redeem_button {
+	color:#fff;
+	margin:40px 0 0;
+	text-transform: uppercase;
+	font-family: $muli;
+	font-weight:400;
+	letter-spacing: 0.1em;
+	font-size:19px;
+	display: inline-block;
+	padding:15px 50px;
+	border-radius:30px;
+	background:$purple_pink;
+	position: relative;
+	z-index:1;
 }
 
 

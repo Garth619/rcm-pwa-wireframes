@@ -68,7 +68,7 @@
 				
 				<li>
 					
-					<a href="">
+					<a href="<?php echo $path;?>/templates/loyalty-punchcard.php">
 						
 						<span class="menu_icon">
 							
@@ -76,7 +76,7 @@
 						
 						</span><!-- menu_icon -->
 						
-						<span class="menu_title">VIP Rewards</span>
+						<span class="menu_title">VIP Rewards 1</span>
 					
 					</a>
 				

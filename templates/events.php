@@ -7,8 +7,7 @@
 		
 		<div id="events_inner">
 			
-<!-- 			<h1 class="section_title">Upcoming Events</h1> --><!-- section_title -->
-			
+
 			<div id="events_feed">
 				
 				<div class="single_event">

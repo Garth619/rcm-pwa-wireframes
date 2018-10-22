@@ -1,0 +1,107 @@
+#loyalty_punchcard {
+	padding-top:45px;
+	text-align: center;
+	position: relative;
+	height:100vh;
+	&:after {
+		content:"";
+		display: block;
+		width:100%;
+		height:70%;
+		background:$darkgrey;
+		position: absolute;
+		top:300px;
+		left:0;
+	}
+}
+
+h2.loyalty {
+	color:$teal;
+	font-size:16px;
+	font-family: $muli;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.08em;
+	text-align: center;
+}
+
+
+h2.loyalty.punchcard {
+	max-width:200px;
+	margin:16px auto 0;
+	background-image: $teal_blue_text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.punchcard_wrapper {
+	width:100%;
+	box-shadow: 0px 14px 24px 0px rgba(0, 0, 0, 0.22);
+	max-width:400px;
+	height:240px;
+	background: $teal_blue;
+	border-radius: 10px;
+	margin:28px auto 0;
+	overflow: hidden;
+	position: relative;
+	z-index:1;
+	svg {
+		width:500px;
+		position: absolute;
+		top:0;
+		left:0;
+		opacity: 0.15;
+	}
+	.punch_holes {
+		position: relative;
+		z-index:1;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		margin:53px auto 0;
+		max-width: 314px;
+		div {
+			flex-basis:53px;
+			cursor: pointer;
+			flex-shrink:0;
+			height:53px;
+			margin-bottom:30px;
+			border-radius:50%;
+			border:1px solid #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: all 200ms ease-in-out;
+/*
+			&:hover {
+				background: #fff;
+				span {
+					color:$blue;
+				}
+			}
+*/
+			&:last-of-type {
+				span {
+					font-size:15px;
+					font-family: $oswald;
+					letter-spacing: 0.08em;
+				}
+			}
+		}
+		span {
+			display: block;
+			color:#fff;
+			text-transform: uppercase;
+			font-size:22px;
+			font-family: $muli;
+			font-weight: 600;
+		}
+		div.redeemed {
+			background: #fff;
+			span {
+				color:$blue;
+			}
+		}
+	}
+}

@@ -40,14 +40,11 @@ jQuery(document).ready(function($){
 	  
 	});
 	
-	
-	
+
 	
 	// load screen animation
 	
-	
-	
-	
+
 	
 	$('.progress_bar').addClass('load');
 	
@@ -74,14 +71,25 @@ jQuery(document).ready(function($){
 	  
 	});
 	
-	
-	
+
 	
 	$('.event_buttons span').on('click', function(e) {
 		
 		$(this).siblings().removeClass('clicked');
 	  
 		$(this).addClass('clicked');
+	
+	});
+	
+	
+	// loyalty punchcard
+	
+	
+	$('.punch_holes > div').on('click', function(e) {
+	  
+	
+		$(this).toggleClass('redeemed');
+		
 	
 	});
 	
