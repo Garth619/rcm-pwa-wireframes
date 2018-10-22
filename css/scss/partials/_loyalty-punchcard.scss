@@ -7,7 +7,7 @@
 		content:"";
 		display: block;
 		width:100%;
-		height:70%;
+		height:100vh;
 		background:$darkgrey;
 		position: absolute;
 		top:300px;
@@ -73,14 +73,6 @@ h2.loyalty.punchcard {
 			justify-content: center;
 			align-items: center;
 			transition: all 200ms ease-in-out;
-/*
-			&:hover {
-				background: #fff;
-				span {
-					color:$blue;
-				}
-			}
-*/
 			&:last-of-type {
 				span {
 					font-size:15px;

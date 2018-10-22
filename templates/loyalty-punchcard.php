@@ -34,7 +34,13 @@
 				
 			</div><!-- punchcard_wrapper -->
 			
-			<a class="redeem_button">Redeem</a><!-- redeem_button -->
+			<a class="redeem_button">
+				
+				<span>Redeem</span>
+				
+				<span><?php echo file_get_contents("" . $path ."/images/corner-01.svg"); ?></span>
+				
+			</a><!-- redeem_button -->
 			
 		</div><!-- inner_loyalty -->
 		
