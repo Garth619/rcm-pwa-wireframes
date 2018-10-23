@@ -20,4 +20,6 @@ t(".single_event_details").on("click",function(e){t(this).parent().addClass("ope
 // $(this).parent().removeClass('open');
 }),t(".event_buttons span").on("click",function(e){t(this).siblings().removeClass("clicked"),t(this).addClass("clicked")}),
 // loyalty punchcard
-t(".punch_holes > div").on("click",function(e){t(this).toggleClass("redeemed")})});// Document Ready
+t(".punch_holes > div").on("click",function(e){t(this).toggleClass("redeemed")}),
+// loyalty main feed tabs
+t(".loyalty_tabs span").on("click",function(e){t(".loyalty_tabs span").removeClass("active"),t(this).addClass("active")})});// Document Ready

@@ -93,6 +93,18 @@ jQuery(document).ready(function($){
 	
 	});
 	
+	
+	// loyalty main feed tabs
+	
+	
+	$('.loyalty_tabs span').on('click', function(e) {
+	  
+	  $('.loyalty_tabs span').removeClass('active');
+	  
+	  $(this).addClass('active');
+	  
+	});
+	
 
 
 

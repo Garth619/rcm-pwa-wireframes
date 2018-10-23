@@ -1,0 +1,109 @@
+.loyalty_feed_wrapper {
+	padding-bottom:75px;
+}
+
+
+.loyalty_tabs {
+	margin-top:55px;
+	display: flex;
+	justify-content: space-between;
+	span {
+		color:#fff;
+		text-transform: uppercase;
+		font-family: $muli;
+		font-weight:600;
+		letter-spacing: 0.13em;
+		display: block;
+		font-size:15px;
+		&:after {
+			content:"";
+			display: block;
+			width:100%;
+			height:2px;
+			background: transparent;
+			margin-top:6px;
+			opacity: 0;
+			transition: opacity 300ms ease-in-out;
+		}
+	}
+	span.active {
+		&:after {
+			opacity: 1;
+			background: $teal;
+		}
+	}
+}
+
+
+
+.loyalty_feed {
+	margin:45px 0 0;
+}
+
+
+.loyalty_single_row {
+	// display: flex;
+	margin-bottom:45px;
+	.loyalty_single_left {
+		.loyalty_product_wrapper {
+			//width:110px;
+			//height:110px;
+			width:100%;
+			position: relative;
+			img {
+				width: 100%;
+				height:100%;
+			}
+			.image_overlay {
+				position: absolute;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				background: rgba(0,0,0,0.6);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				span {
+					color:#fff;
+					font-family: $muli;
+					font-weight:800;
+					font-size: 21px;
+					letter-spacing: 0.06em;
+				}
+			}
+		}
+	}
+	.loyalty_single_right {
+		margin:20px 0 0 0px;
+		position: relative;
+		svg {
+			fill:$teal;
+			width:23px;
+			height:23px;
+			position: absolute;
+			top:-7px;
+			right:0;
+		}
+		h2 {
+			color:$teal;
+			font-family: $oswald;
+			font-weight: 600;
+			font-size:15px;
+			line-height: 18px;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			width:100%;
+			padding-right: 40px;
+		}
+		span {
+			color:#fff;
+			font-size: 14px;
+			font-family: $muli;
+			line-height: 19px;
+			letter-spacing: 0.12em;
+			display: block;
+			margin-top:11px;
+		}
+	}
+}

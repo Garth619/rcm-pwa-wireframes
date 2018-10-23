@@ -84,6 +84,22 @@
 				
 				<li>
 					
+					<a href="<?php echo $path;?>/templates/loyalty-main.php">
+						
+						<span class="menu_icon">
+							
+							<?php echo file_get_contents("" . $path . "/images/icon-rewards.svg"); ?>
+						
+						</span><!-- menu_icon -->
+						
+						<span class="menu_title">VIP Rewards 2</span>
+					
+					</a>
+				
+				</li>
+				
+				<li>
+					
 					<a href="">
 						
 						<span class="menu_icon">

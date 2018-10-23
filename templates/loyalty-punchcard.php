@@ -6,7 +6,7 @@
 	
 	<section id="loyalty_punchcard" class="section_template">
 		
-		<div id="inner_loyalty" class="inner_section">
+		<div id="inner_loyalty">
 			
 			<h1 class="section_title">Free Disposable Pen</h1><!-- section_title -->
 			
@@ -43,6 +43,8 @@
 			</a><!-- redeem_button -->
 			
 		</div><!-- inner_loyalty -->
+		
+	<span class="pc_bg_wrapper"><?php echo file_get_contents("" . $path . "/images/pc_bg-01.svg"); ?></span><!-- pc_bg_wrapper -->
 		
 	</section><!-- loyalty_punchcard -->
 	
