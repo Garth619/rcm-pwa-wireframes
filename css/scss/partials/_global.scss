@@ -78,6 +78,19 @@ h1.section_title {
 	line-height: 26px;
 }
 
+h2.sub_header {
+	text-transform: uppercase;
+	color:$teal;
+	font-family: $muli;
+	font-weight:600;
+	font-size:14px;
+	letter-spacing: 0.12em;
+	line-height: 18px;
+	text-align: center;
+	display: block;
+	margin:5px 0 0;
+}
+
 .content {
 	color:#fff;
 	font-family: $libre;

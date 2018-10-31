@@ -507,6 +507,26 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/js/sticky.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/js/sticky.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/waypoints.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/js/waypoints.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/templates/about.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -561,6 +581,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/loyalty-punchcard.php",
+		"oF": 0
+		},
+	"/templates/loyalty-single-deal.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/loyalty-single-deal.php",
 		"oF": 0
 		},
 	"/templates/navigation.php": {

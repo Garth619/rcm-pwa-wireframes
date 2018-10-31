@@ -8,20 +8,10 @@
 		
 		<div class="inner_section">
 			
-			<h1 class="section_title">VIP Rewards</h1><!-- section_title -->
+			<h1 class="section_title">Free Flower</h1><!-- section_title -->
 			
-			<h2 class="sub_header">Welcome Garrett!</h2><!-- sub_header -->
+			<h2 class="sub_header">Redeem By 12.10.18</h2><!-- sub_header -->
 			
-			<img id="rewards_profile_image" src="<?php echo $path;?>/images/g.jpg"/><!-- rewards_profile_image -->
-			
-			<div id="rewards_points_wrapper">
-				
-				<span id="points_total">18&nbsp;/&nbsp;25</span><!-- profile_points -->
-				
-				<span id="points_title">Points</span><!-- points_title -->
-				
-				
-			</div><!-- rewards_points_wrapper -->
 			
 			<div class="loyalty_feed_wrapper">
 				
@@ -38,7 +28,7 @@
 					
 					<div class="loyalty_single_row">
 						
-						<a href="<?php echo $path;?>/templates/loyalty-single-deal.php">
+						<a href="">
 						
 						<div class="loyalty_single_left">
 							

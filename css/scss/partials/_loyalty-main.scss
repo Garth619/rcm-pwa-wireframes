@@ -1,3 +1,37 @@
+img#rewards_profile_image {
+	width:130px;
+	height:130px;
+	display: block;
+	margin:25px auto 0;
+	border-radius: 50%;
+	border:3px solid #fff;
+	box-shadow: 0px 5px 25px -9px rgba(0,0,0,0.51);
+}
+
+#rewards_points_wrapper {
+	text-align: center;
+	margin:23px 0 0;
+	span {
+		display: block;
+	}
+	span#points_total {
+		color:#fff;
+		font-family: $oswald;
+		font-weight:400;
+		font-size:25px;
+		letter-spacing: 0.04em;
+	}
+	span#points_title {
+		color:$teal;
+		font-family: $muli;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size:15px;
+		letter-spacing: 0.16em;
+		margin:10px 0 0;
+	}
+}
+
 .loyalty_feed_wrapper {
 	padding-bottom:75px;
 }
@@ -6,7 +40,10 @@
 .loyalty_tabs {
 	margin-top:55px;
 	display: flex;
+	width:100%;
 	justify-content: space-between;
+	background: $black;
+	padding:10px 0 20px;
 	span {
 		color:#fff;
 		text-transform: uppercase;
@@ -34,16 +71,28 @@
 	}
 }
 
+.stuck {
+  position:fixed;
+  top:14px;
+  left:0;
+  padding-left:18px;
+  padding-right:18px;
+  z-index:5;
+}
+
 
 
 .loyalty_feed {
-	margin:45px 0 0;
+	margin:10px 0 0;
 }
 
 
 .loyalty_single_row {
 	// display: flex;
 	margin-bottom:45px;
+	a {
+		text-decoration: none;
+	}
 	.loyalty_single_left {
 		.loyalty_product_wrapper {
 			//width:110px;

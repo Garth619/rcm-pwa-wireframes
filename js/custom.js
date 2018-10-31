@@ -1,4 +1,6 @@
 // @codekit-prepend 'jquery.3.3.1.js'
+// @codekit-prepend 'waypoints.min.js'
+// @codekit-prepend 'sticky.min.js'
 
 
 jQuery(document).ready(function($){
@@ -97,6 +99,17 @@ jQuery(document).ready(function($){
 	// loyalty main feed tabs
 	
 	
+	
+	if($('.loyalty_tabs').length) {
+		
+		var sticky = new Waypoint.Sticky({
+			element: $('.loyalty_tabs')[0],
+			 offset: 70
+		})
+	
+	}
+	
+	
 	$('.loyalty_tabs span').on('click', function(e) {
 	  
 	  $('.loyalty_tabs span').removeClass('active');
@@ -104,6 +117,8 @@ jQuery(document).ready(function($){
 	  $(this).addClass('active');
 	  
 	});
+	
+	
 	
 
 
