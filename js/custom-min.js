@@ -25,4 +25,6 @@ t(".single_event_details").on("click",function(e){t(this).parent().addClass("ope
 // $(this).parent().removeClass('open');
 }),t(".event_buttons span").on("click",function(e){t(this).siblings().removeClass("clicked"),t(this).addClass("clicked")}),
 // loyalty punchcard
-t(".punch_holes > div").on("click",function(e){t(this).toggleClass("redeemed")}),t(".loyalty_tabs").length)var e=new Waypoint.Sticky({element:t(".loyalty_tabs")[0],offset:70});t(".loyalty_tabs span").on("click",function(e){t(".loyalty_tabs span").removeClass("active"),t(this).addClass("active")})});// Document Ready
+t(".punch_holes > div").on("click",function(e){t(this).toggleClass("redeemed")}),t(".loyalty_tabs").length)var e=new Waypoint.Sticky({element:t(".loyalty_tabs")[0],offset:70});t(".loyalty_tabs span").on("click",function(e){t(".loyalty_tabs span").removeClass("active"),t(this).addClass("active")}),
+// loyalty single product stamp
+t(".stamp").on("click",function(e){t(this).toggleClass("clicked")})});// Document Ready

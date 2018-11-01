@@ -107,6 +107,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/css/scss/partials/_loyalty-singlestamps.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_loyalty-singlestamps.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/css/scss/partials/_nav.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -437,6 +450,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/single-test.png": {
+		"ft": 32768,
+		"iS": 236198,
+		"oA": 0,
+		"oAP": "/images/single-test.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/slide-one.png": {
 		"ft": 32768,

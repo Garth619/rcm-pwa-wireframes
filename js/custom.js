@@ -120,6 +120,17 @@ jQuery(document).ready(function($){
 	
 	
 	
+	// loyalty single product stamp
+	
+	
+	$('.stamp').on('click', function(e) {
+	  
+		$(this).toggleClass('clicked');
+	
+	});
+	
+	
+	
 
 
 
