@@ -107,6 +107,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/css/scss/partials/_loyalty-single-v2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_loyalty-single-v2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/css/scss/partials/_loyalty-singlestamps.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -268,6 +281,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/graph.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/graph.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/icon-about.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -421,6 +444,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/pa-01-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/pa-01-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/pc_bg-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -489,6 +522,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/up-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/weed-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/weed-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -593,6 +636,13 @@
 		"oAP": "/templates/home.php",
 		"oF": 0
 		},
+	"/templates/loyalty-feed.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/loyalty-feed.php",
+		"oF": 0
+		},
 	"/templates/loyalty-main.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -605,6 +655,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/loyalty-punchcard.php",
+		"oF": 0
+		},
+	"/templates/loyalty-single-deal-v2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/loyalty-single-deal-v2.php",
 		"oF": 0
 		},
 	"/templates/loyalty-single-deal.php": {

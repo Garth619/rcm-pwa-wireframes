@@ -33,7 +33,7 @@ img#rewards_profile_image {
 }
 
 .loyalty_feed_wrapper {
-	padding-bottom:75px;
+	padding-bottom:55px;
 }
 
 
@@ -41,33 +41,31 @@ img#rewards_profile_image {
 	margin-top:55px;
 	display: flex;
 	width:100%;
-	justify-content: space-between;
+	justify-content: center;
 	background: $black;
 	padding:10px 0 20px;
-	span {
+	span.tab {
 		color:#fff;
 		text-transform: uppercase;
 		font-family: $muli;
 		font-weight:600;
 		letter-spacing: 0.13em;
 		display: block;
-		font-size:15px;
-		&:after {
-			content:"";
-			display: block;
-			width:100%;
-			height:2px;
-			background: transparent;
-			margin-top:6px;
-			opacity: 0;
-			transition: opacity 300ms ease-in-out;
-		}
+		font-size:16px;
+		display: block;
+		padding-bottom:8px;
+		border-bottom:2px solid transparent;
+		transition: border 200ms ease-in-out;
+	}
+	span.divider {
+		width:2px;
+		height:16px;
+		display:block;
+		background: $grey;
+		margin:0 20px;
 	}
 	span.active {
-		&:after {
-			opacity: 1;
-			background: $teal;
-		}
+		border-bottom:2px solid $teal;
 	}
 }
 
@@ -83,21 +81,22 @@ img#rewards_profile_image {
 
 
 .loyalty_feed {
-	margin:10px 0 0;
+	margin:30px 0 0;
 }
 
 
 .loyalty_single_row {
-	// display: flex;
+	
 	margin-bottom:45px;
 	a {
 		text-decoration: none;
+		display: flex;
 	}
 	.loyalty_single_left {
 		.loyalty_product_wrapper {
-			//width:110px;
-			//height:110px;
-			width:100%;
+			width:110px;
+			height:110px;
+			//width:100%;
 			position: relative;
 			img {
 				width: 100%;
@@ -118,14 +117,14 @@ img#rewards_profile_image {
 					color:#fff;
 					font-family: $muli;
 					font-weight:800;
-					font-size: 21px;
+					font-size: 17px;
 					letter-spacing: 0.06em;
 				}
 			}
 		}
 	}
 	.loyalty_single_right {
-		margin:20px 0 0 0px;
+		margin:0px 0 0 20px;
 		position: relative;
 		svg {
 			fill:$teal;
@@ -146,13 +145,18 @@ img#rewards_profile_image {
 			width:100%;
 			padding-right: 40px;
 		}
+		h2.redeemed {
+			color:$grey;
+		}
 		span {
-			color:#fff;
+			display: block;
 			font-size: 14px;
 			font-family: $muli;
 			line-height: 19px;
 			letter-spacing: 0.12em;
-			display: block;
+		}
+		span.loyalty_description {
+			color:#fff;
 			margin-top:11px;
 		}
 	}

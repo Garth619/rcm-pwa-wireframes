@@ -110,9 +110,9 @@ jQuery(document).ready(function($){
 	}
 	
 	
-	$('.loyalty_tabs span').on('click', function(e) {
+	$('.loyalty_tabs span.tab').on('click', function(e) {
 	  
-	  $('.loyalty_tabs span').removeClass('active');
+	  $('.loyalty_tabs span.tab').removeClass('active');
 	  
 	  $(this).addClass('active');
 	  

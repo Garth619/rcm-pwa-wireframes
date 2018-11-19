@@ -1,0 +1,20 @@
+<svg id="graph" viewBox="0 0 229.5 225.46">
+  <defs>
+    <style>
+      .graph-cls-1 {
+        fill: #384b5f;
+      }
+
+      .graph-cls-2 {
+        fill: #26bdbf;
+      }
+    </style>
+  </defs>
+  <title>Asset 1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="graph-cls-1" d="M114.75,0A114.76,114.76,0,0,0,84.5,225.46V215a104.76,104.76,0,1,1,62.5-.63V224.9A114.76,114.76,0,0,0,114.75,0Z"/>
+      <path class="graph-cls-2" d="M114.75,10a104.33,104.33,0,0,1,71.91,28.66l8-6.27A114.75,114.75,0,1,0,84.5,225.46V215A104.75,104.75,0,0,1,114.75,10Z"/>
+    </g>
+  </g>
+</svg>
