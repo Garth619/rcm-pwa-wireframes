@@ -39,6 +39,18 @@ span.redeemed_status {
 	text-align: center;
 }
 
+.single_product_description {
+	color:#fff;
+	text-align: center;
+	font-family: $muli;
+	max-width: 300px;
+	margin:0px auto;
+	padding:20px 0 10px;
+	letter-spacing: 0.1em;
+	font-size:14px;
+	line-height: 19px;
+}
+
 
 .stamps_wrapper {
 	display: flex;
