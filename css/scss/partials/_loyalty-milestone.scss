@@ -1,0 +1,96 @@
+.milestone_graph {
+	max-width: 380px;
+	margin:0 auto;
+}
+
+svg#graph_bg {
+	width:350px;
+	height:220px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+
+.graph_numbers {
+	display: flex;
+	justify-content: space-between;
+	margin-top:18px;
+	span.graph_number {
+		color:#fff;
+		font-family: $oswald;
+		font-size:16px;
+		letter-spacing: 0.08em;
+		span.points {
+			font-size:13px;
+		}
+	}
+}
+
+
+
+.graph_points {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	z-index: 1;
+	span.graph_point {
+		width:18px;
+		height:18px;
+		border-radius: 50%;
+		background: $pink;
+		display: block;
+		position: relative;
+		box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.22);
+		transform: scale(1);
+		transition: transform 600ms cubic-bezier(.17,.66,.34,.98);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&:after {
+			opacity: 0;
+			transition: all 200ms ease-in-out;
+			content:"";
+			width:12px;
+			height:12px;
+			display: block;
+			border-radius: 50%;
+			background: #fff;
+			border-radius: 50%;
+		}
+		&:first-of-type {
+			top: 231px;
+			left:7px;
+		}
+		&:nth-of-type(2) {
+			top: 178px;
+		}
+		&:nth-of-type(3) {
+			top: 122px;
+		}
+		&:nth-of-type(4) {
+			top:65px;
+		}
+		&:nth-of-type(5) {
+			top:15px;
+			right:7px;
+		}
+	}
+	span.graph_point.active {
+		transform: scale(1.2);
+		&:after {
+			opacity: 1;
+			
+		}
+	}
+}
+
+
+span.graphline {
+	display: block;
+	width:400px;
+	transform-origin: 388px 73px 0;
+	height:3px;
+	background: $pink;
+	transform: rotate(-32.3deg);
+}

@@ -3,9 +3,9 @@
 				
 				<div class="loyalty_tabs">
 					
-					<span class="tab active">Rewards</span>
+					<a class="tab active" href="<?php echo $path;?>/templates/loyalty-main.php">Rewards</a>
 					<span class="divider"></span>
-					<span class="tab ">Milestones</span>
+					<a class="tab" href="<?php echo $path;?>/templates/loyalty-milestone.php">Milestones</a>
 					
 				</div><!-- loyalty_tabs -->
 				

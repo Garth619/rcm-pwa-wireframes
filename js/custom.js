@@ -130,7 +130,15 @@ jQuery(document).ready(function($){
 	});
 	
 	
+	// loyalty milestone graph points
 	
+	$('span.graph_point').on('click', function(e) {
+	  
+	  $('span.graph_point').removeClass('active');
+	  
+	  $(this).addClass('active');
+	  
+	});
 
 
 

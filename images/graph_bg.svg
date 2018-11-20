@@ -1,0 +1,20 @@
+<svg id="graph_bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 393.42 247.49">
+  <defs>
+    <style>
+      .graph_bg-cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="356.28" y1="284.63" x2="159.57" y2="87.92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f2021"/>
+      <stop offset="0.4" stop-color="#262736"/>
+      <stop offset="1" stop-color="#453053"/>
+    </linearGradient>
+  </defs>
+  <title>Asset 2</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="graph_bg-cls-1" d="M390.79.13,0,247.49H393.42S390.79-6.45,390.79.13Z"/>
+    </g>
+  </g>
+</svg>

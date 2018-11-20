@@ -27,4 +27,6 @@ t(".single_event_details").on("click",function(e){t(this).parent().addClass("ope
 // loyalty punchcard
 t(".punch_holes > div").on("click",function(e){t(this).toggleClass("redeemed")}),t(".loyalty_tabs").length)var e=new Waypoint.Sticky({element:t(".loyalty_tabs")[0],offset:70});t(".loyalty_tabs span.tab").on("click",function(e){t(".loyalty_tabs span.tab").removeClass("active"),t(this).addClass("active")}),
 // loyalty single product stamp
-t(".stamp").on("click",function(e){t(this).toggleClass("clicked")})});// Document Ready
+t(".stamp").on("click",function(e){t(this).toggleClass("clicked")}),
+// loyalty milestone graph points
+t("span.graph_point").on("click",function(e){t("span.graph_point").removeClass("active"),t(this).addClass("active")})});// Document Ready
