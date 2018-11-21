@@ -15,15 +15,21 @@ svg#graph_bg {
 .graph_numbers {
 	display: flex;
 	justify-content: space-between;
-	margin-top:18px;
+	margin-top:22px;
 	span.graph_number {
 		color:#fff;
 		font-family: $oswald;
-		font-size:16px;
+		font-size:14px;
 		letter-spacing: 0.08em;
+		padding-bottom:5px;
+		border-bottom: 2px solid transparent;
+		transition: border 200ms ease-in-out;
 		span.points {
 			font-size:13px;
 		}
+	}
+	span.graph_number.active {
+		border-bottom: 2px solid $pink;
 	}
 }
 
@@ -72,7 +78,7 @@ svg#graph_bg {
 			top:65px;
 		}
 		&:nth-of-type(5) {
-			top:15px;
+			top:12px;
 			right:7px;
 		}
 	}
@@ -94,3 +100,85 @@ span.graphline {
 	background: $pink;
 	transform: rotate(-32.3deg);
 }
+
+
+span.milestone_points_total {
+	font-family: $oswald;
+	color:#fff;
+	text-transform: uppercase;
+	font-size:32px;
+	display: block;
+	margin-bottom:10px;
+}
+
+
+span.milestone_points_title {
+	font-family: $muli;
+	font-weight: 700;
+	color:$pink;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	font-size:16px;
+}
+
+
+.milestone_products_wrapper {
+	display: flex;
+	align-items: center;
+	margin:37px 0 0;
+}
+
+
+.milestone_button {
+	width:40px;
+	height:20px;
+	svg {
+		width:20px;
+		height:20px;
+		fill:#fff;
+	}
+}
+
+
+.milestone_left {
+	svg {
+		transform: rotate(-180deg);
+	}
+}
+
+
+.milestone_right {
+	display: flex;
+	justify-content: flex-end;
+	svg {
+		
+	}
+}
+
+
+.milestone_products_slider {
+	width:calc(100% - 80px);
+}
+
+.milestone_single_slide {
+	text-align: center;
+	span {
+		display: block;
+		font-family: $muli;
+		letter-spacing: 0.12em;
+		line-height: 19px;
+	}
+	span.milestone_slide_title {
+		color:$pink;
+		text-transform: uppercase;
+		font-size:15px;
+		font-weight: 700;
+		margin-bottom:16px;
+	}
+	span.milestone_slide_description {
+		color:#fff;
+		font-size: 14px;
+	}
+}
+
+

@@ -138,7 +138,94 @@ jQuery(document).ready(function($){
 	  
 	  $(this).addClass('active');
 	  
+	  // hacky hardcode just for visuals
+	  
+	  $('span.graph_number').removeClass('active');
+	  
+	  if($(this).hasClass('one')) {
+		  
+		  $('span.graph_number.one').addClass('active');
+		  
+	  }
+	  
+	  if($(this).hasClass('two')) {
+		  
+		  $('span.graph_number.two').addClass('active');
+		  
+	  }
+	  
+	  if($(this).hasClass('three')) {
+		  
+		  $('span.graph_number.three').addClass('active');
+		  
+	  }
+	  
+	  if($(this).hasClass('four')) {
+		  
+		  $('span.graph_number.four').addClass('active');
+		  
+	  }
+	  
+	  if($(this).hasClass('five')) {
+		  
+		  $('span.graph_number.five').addClass('active');
+		  
+	  }
+	  
 	});
+	
+	
+	
+	// more hacky milestone number clicks
+	
+	
+	
+	$('span.graph_number').on('click', function(e) {
+	  
+	  $('span.graph_number').removeClass('active');
+	  
+	  $(this).addClass('active');
+	  
+	  // hacky hardcode just for visuals
+	  
+	  $('span.graph_point').removeClass('active');
+	  
+	  if($(this).hasClass('one')) {
+		  
+		  $('span.graph_point.one').addClass('active');
+		  
+	  }
+	  
+	  if($(this).hasClass('two')) {
+		  
+		  $('span.graph_point.two').addClass('active');
+		  
+	  }
+	  
+	  if($(this).hasClass('three')) {
+		  
+		  $('span.graph_point.three').addClass('active');
+		  
+	  }
+	  
+	  if($(this).hasClass('four')) {
+		  
+		  $('span.graph_point.four').addClass('active');
+		  
+	  }
+	  
+	  if($(this).hasClass('five')) {
+		  
+		  $('span.graph_point.five').addClass('active');
+		  
+	  }
+	  
+	});
+	
+	
+	
+	
+	
 
 
 

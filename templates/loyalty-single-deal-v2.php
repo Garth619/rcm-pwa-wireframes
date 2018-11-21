@@ -40,9 +40,11 @@
 				
 			</a><!-- redeem_button -->
 			
+			</div><!-- inner_section -->
+			
 			<?php include('loyalty-feed.php');?>
 			
-		</div><!-- inner_section -->
+		
 		
 	</section><!-- loyalty_main -->
 	

@@ -23,9 +23,11 @@
 				
 			</div><!-- rewards_points_wrapper -->
 			
+			</div><!-- inner_section -->
+			
 			<?php include('loyalty-feed.php');?>
 			
-		</div><!-- inner_section -->
+		
 		
 	</section><!-- loyalty_main -->
 	
