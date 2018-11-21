@@ -10,7 +10,7 @@
 			
 	<div id="rewards_points_wrapper">
 				
-			<span class="milestone_points_total">18&nbsp;/&nbsp;25</span><!-- profile_points -->
+			<span class="milestone_points_total">graph view list view??? 18&nbsp;/&nbsp;25</span><!-- profile_points -->
 				
 			<span class="milestone_points_title">Milestone Points</span><!-- points_title -->
 				

@@ -32,6 +32,20 @@ img#rewards_profile_image {
 	}
 }
 
+.loyalty_welcome_description {
+	font-family: $muli;
+	letter-spacing: 0.12em;
+	line-height: 19px;
+	color:#fff;
+	font-size: 14px;
+	max-width:270px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
 .loyalty_feed_wrapper {
 	padding-bottom:55px;
 	background: $darkgrey;
