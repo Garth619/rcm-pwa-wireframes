@@ -96,19 +96,30 @@ jQuery(document).ready(function($){
 	});
 	
 	
-	// loyalty main welcome page
+	// loyalty main welcome page buttons
+
 	
 	
-	$('a.redeem_button.rewards').on('click', function(e) {
+	$('a.loyalty').on('click', function(e) {
+	  
+		$('.tab_close').addClass('open');
+	
+	});
+
+	
+	$('a.loyalty.rewards').on('click', function(e) {
 	  
 		$('.loyalty_tabs, .loyalty_feed_wrapper').addClass('open');
 		
+		$('.loyalty_feed.rewards').addClass('open');
+		
 		$('.tab_close').addClass('rewards').removeClass('milestone');
+		
 	
 	});
 	
 	
-	$('a.redeem_button.milestone').on('click', function(e) {
+	$('a.loyalty.milestone').on('click', function(e) {
 	  
 		$('.loyalty_tabs, .loyalty_feed_wrapper').addClass('open');
 		
@@ -116,13 +127,7 @@ jQuery(document).ready(function($){
 	
 	});
 	
-	
-	$('.tab_close').on('click', function(e) {
-	  
-		$('.loyalty_tabs, .loyalty_feed_wrapper').removeClass('open');
-	
-	});
-	
+
 	
 	// loyalty main feed tabs
 	
@@ -150,9 +155,15 @@ jQuery(document).ready(function($){
 	});
 	
 	
+	// loyalty overlay arrow close
 	
+	$('.tab_close').on('click', function(e) {
+	  
+		$('.tab_close, .loyalty_tabs, .loyalty_feed_wrapper, .loyalty_feed').removeClass('open');
 	
+	});
 	
+
 	
 	// loyalty single product stamp
 	

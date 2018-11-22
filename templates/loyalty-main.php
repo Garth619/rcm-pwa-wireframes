@@ -20,9 +20,9 @@
 				
 			</div><!-- rewards_points_wrapper -->
 			
-			<a class="redeem_button rewards">Rewards</a>
+			<a class="redeem_button loyalty rewards">Rewards</a>
 			
-			<a class="redeem_button milestone">Milestones</a>
+			<a class="redeem_button loyalty milestone">Milestones</a>
 			
 			</div><!-- inner_section -->
 

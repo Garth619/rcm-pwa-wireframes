@@ -8,6 +8,7 @@ img#rewards_profile_image {
 	box-shadow: 0px 5px 25px -9px rgba(0,0,0,0.51);
 }
 
+/*
 #rewards_points_wrapper {
 	text-align: center;
 	margin:23px 0 0;
@@ -31,9 +32,12 @@ img#rewards_profile_image {
 		margin:10px 0 0;
 	}
 }
+*/
 
 .loyalty_welcome_description {
 	font-family: $muli;
+	text-align: center;
+	margin:23px 0 0;
 	letter-spacing: 0.12em;
 	line-height: 19px;
 	color:#fff;
@@ -43,11 +47,36 @@ img#rewards_profile_image {
 	margin-right:auto;
 }
 
+a.loyalty.rewards {
+	margin-top:25px;
+}
+
+a.loyalty.milestone {
+	margin-top:25px;
+}
+
 
 .tab_close {
 	position: absolute;
 	top:21px;
 	left:20px;
+	transform: translateX(-30px);
+	opacity: 0;
+	transition: transform 650ms cubic-bezier(.17,.66,.34,.98), opacity 400ms linear;
+	svg#overlay_arrow {
+		width:20px;
+		height:20px;
+		.overlay-arrow-cls-1 {
+  		fill: #fff;
+  		transition: fill 200ms ease-in-out;
+  	}
+	}
+}
+
+.tab_close.open {
+	transform: translateX(0px);
+	opacity: 1;
+	transition-delay: 700ms;
 }
 
 
@@ -77,17 +106,18 @@ img#rewards_profile_image {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 18px 0 15px;
+	padding: 20px 0 12px;
 	position: fixed;
 	top:69px;
 	background:$darkgrey;
 	left:0;
 	width:100%;
-	z-index:11;
 	border-bottom:1px solid $grey;
+	z-index:11;
 	transform: translateX(100%);
-	transition: all 600ms cubic-bezier(.17,.66,.34,.98);
+	transition: transform 600ms cubic-bezier(.17,.66,.34,.98);
 	transition-delay: 200ms;
+	border-bottom:1px solid $grey;
 	a.tab {
 		color:#fff;
 		text-transform: uppercase;
@@ -97,10 +127,11 @@ img#rewards_profile_image {
 		display: block;
 		font-size:15px;
 		display: block;
+		text-decoration: none;
 		padding-bottom:6px;
 		border-bottom:1px solid transparent;
-		transition: border 200ms ease-in-out;
-		text-decoration: none;
+		transition: border 200ms ease-in-out, opacity 500ms linear;
+		opacity: 0;
 	}
 	span.divider {
 		width:1px;
@@ -108,6 +139,8 @@ img#rewards_profile_image {
 		display:block;
 		background: $grey;
 		margin:0 20px;
+		opacity: 0;
+		transition:opacity 300ms linear;
 	}
 	a.rewards.active {
 		border-bottom:1px solid $teal;
@@ -141,7 +174,12 @@ img#rewards_profile_image {
 	transform: translateX(0%);
 }
 
-
+.loyalty_tabs.open {
+	a.tab, span.divider {
+		opacity: 1;
+		transition-delay: 0ms, 700ms;
+	}
+}
 
 
 
@@ -149,6 +187,21 @@ img#rewards_profile_image {
 	margin:30px 0px 0;
 	padding:0 20px;
 }
+
+
+.loyalty_feed.rewards {
+	transform: translateY(-45px);
+	opacity: 0;
+	transition: transform 800ms cubic-bezier(.17,.66,.34,.98), opacity 400ms linear;
+}
+
+
+.loyalty_feed.rewards.open {
+	transform: translateY(0px);
+	opacity: 1;
+	transition-delay: 700ms;
+}
+
 
 
 .loyalty_single_row {
