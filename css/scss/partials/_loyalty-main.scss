@@ -44,21 +44,50 @@ img#rewards_profile_image {
 }
 
 
+.tab_close {
+	position: absolute;
+	top:21px;
+	left:20px;
+}
 
 
-.loyalty_feed_wrapper {
-	padding-bottom:55px;
-	background: $darkgrey;
+.tab_close.rewards {
+	svg#overlay_arrow {
+		width:20px;
+		height:20px;
+		.overlay-arrow-cls-1 {
+  		fill: $teal;
+  	}
+	}
+}
+
+.tab_close.milestone {
+	svg#overlay_arrow {
+		width:20px;
+		height:20px;
+		.overlay-arrow-cls-1 {
+  		fill: $pink;
+  	}
+	}
 }
 
 
 .loyalty_tabs {
-	margin-top:55px;
+	margin:0;
 	display: flex;
-	width:100%;
 	justify-content: center;
-	background: $black;
-	padding:10px 0 20px;
+	align-items: center;
+	padding: 18px 0 15px;
+	position: fixed;
+	top:69px;
+	background:$darkgrey;
+	left:0;
+	width:100%;
+	z-index:11;
+	border-bottom:1px solid $grey;
+	transform: translateX(100%);
+	transition: all 600ms cubic-bezier(.17,.66,.34,.98);
+	transition-delay: 200ms;
 	a.tab {
 		color:#fff;
 		text-transform: uppercase;
@@ -66,33 +95,53 @@ img#rewards_profile_image {
 		font-weight:600;
 		letter-spacing: 0.13em;
 		display: block;
-		font-size:16px;
+		font-size:15px;
 		display: block;
-		padding-bottom:8px;
-		border-bottom:2px solid transparent;
+		padding-bottom:6px;
+		border-bottom:1px solid transparent;
 		transition: border 200ms ease-in-out;
 		text-decoration: none;
 	}
 	span.divider {
-		width:2px;
-		height:16px;
+		width:1px;
+		height:25px;
 		display:block;
 		background: $grey;
 		margin:0 20px;
 	}
-	a.active {
-		border-bottom:2px solid $teal;
+	a.rewards.active {
+		border-bottom:1px solid $teal;
+	}
+	a.milestone.active {
+		border-bottom:1px solid $pink;
 	}
 }
 
-.stuck {
-  position:fixed;
-  top:14px;
-  left:0;
-  padding-left:18px;
-  padding-right:18px;
-  z-index:5;
+
+
+
+.loyalty_feed_wrapper {
+	padding-bottom:55px;
+	background: $darkgrey;
+	position: fixed;
+	top:70px;
+	left:0;
+	width:100%;
+	height:100vh;
+	z-index: 10;
+	overflow-y: scroll;
+	padding-top:60px;
+	transform: translateX(100%);
+	transition: all 600ms cubic-bezier(.17,.66,.34,.98);
+	transition-delay: 200ms;
+	-webkit-overflow-scrolling: touch;
 }
+
+.loyalty_tabs.open, .loyalty_feed_wrapper.open {
+	transform: translateX(0%);
+}
+
+
 
 
 

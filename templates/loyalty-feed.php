@@ -1,15 +1,22 @@
+<div class="loyalty_tabs">
+	
+	<div class="tab_close">
+		
+		<?php echo file_get_contents("" . $path . "/images/overlay_arrow.svg"); ?>
+		
+	</div><!-- tab_close -->
+					
+	<a class="tab rewards active">Rewards</a>
+	
+	<span class="divider"></span>
+	
+	<a class="tab milestone">Milestones</a>
+					
+</div><!-- loyalty_tabs -->
+
 <div class="loyalty_feed_wrapper">
-				
-				
-				<div class="loyalty_tabs">
-					
-					<a class="tab active" href="<?php echo $path;?>/templates/loyalty-main.php">Rewards</a>
-					<span class="divider"></span>
-					<a class="tab" href="<?php echo $path;?>/templates/loyalty-milestone.php">Milestones</a>
-					
-				</div><!-- loyalty_tabs -->
-				
-				<div class="loyalty_feed rewards">
+
+		<div class="loyalty_feed rewards">
 					
 					<div class="loyalty_single_row">
 						

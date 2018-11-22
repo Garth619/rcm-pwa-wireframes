@@ -1,6 +1,6 @@
 // @codekit-prepend 'jquery.3.3.1.js'
-// @codekit-prepend 'waypoints.min.js'
-// @codekit-prepend 'sticky.min.js'
+
+
 
 
 jQuery(document).ready(function($){
@@ -96,27 +96,61 @@ jQuery(document).ready(function($){
 	});
 	
 	
+	// loyalty main welcome page
+	
+	
+	$('a.redeem_button.rewards').on('click', function(e) {
+	  
+		$('.loyalty_tabs, .loyalty_feed_wrapper').addClass('open');
+		
+		$('.tab_close').addClass('rewards').removeClass('milestone');
+	
+	});
+	
+	
+	$('a.redeem_button.milestone').on('click', function(e) {
+	  
+		$('.loyalty_tabs, .loyalty_feed_wrapper').addClass('open');
+		
+		$('.tab_close').addClass('milestone').removeClass('rewards');
+	
+	});
+	
+	
+	$('.tab_close').on('click', function(e) {
+	  
+		$('.loyalty_tabs, .loyalty_feed_wrapper').removeClass('open');
+	
+	});
+	
+	
 	// loyalty main feed tabs
 	
-	
-	
-	if($('.loyalty_tabs').length) {
-		
-		var sticky = new Waypoint.Sticky({
-			element: $('.loyalty_tabs')[0],
-			 offset: 70
-		})
-	
-	}
-	
-	
-	$('.loyalty_tabs span.tab').on('click', function(e) {
+
+	$('.loyalty_tabs a.tab').on('click', function(e) {
 	  
-	  $('.loyalty_tabs span.tab').removeClass('active');
+	  $('.loyalty_tabs a.tab').removeClass('active');
 	  
 	  $(this).addClass('active');
 	  
 	});
+	
+	
+	$('.loyalty_tabs a.rewards.tab').on('click', function(e) {
+	  
+	  $('.tab_close').addClass('rewards').removeClass('milestone');
+	  
+	});
+	
+	
+	$('.loyalty_tabs a.milestone.tab').on('click', function(e) {
+	  
+	  $('.tab_close').addClass('milestone').removeClass('rewards');
+	  
+	});
+	
+	
+	
 	
 	
 	

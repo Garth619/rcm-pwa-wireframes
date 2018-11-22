@@ -1,10 +1,10 @@
 .milestone_graph {
-	max-width: 380px;
+	max-width: 335px;
 	margin:0 auto;
 }
 
 svg#graph_bg {
-	width:350px;
+	width:335px;
 	height:220px;
 	margin-left:auto;
 	margin-right:auto;
@@ -65,21 +65,21 @@ svg#graph_bg {
 			border-radius: 50%;
 		}
 		&:first-of-type {
-			top: 231px;
-			left:7px;
+			top: 224px;
+			left: 0px;
 		}
 		&:nth-of-type(2) {
-			top: 178px;
+			top: 172px;
 		}
 		&:nth-of-type(3) {
-			top: 122px;
+			top: 121px;
 		}
 		&:nth-of-type(4) {
-			top:65px;
+			top:71px;
 		}
 		&:nth-of-type(5) {
-			top:12px;
-			right:7px;
+			top: 20px;
+			right: -2px;
 		}
 	}
 	span.graph_point.active {
@@ -94,11 +94,11 @@ svg#graph_bg {
 
 span.graphline {
 	display: block;
-	width:400px;
-	transform-origin: 388px 73px 0;
+	width: 393px;
+	transform-origin: 374px 104px 0;
 	height:3px;
 	background: $pink;
-	transform: rotate(-32.3deg);
+	transform: rotate(-32.4deg);
 }
 
 

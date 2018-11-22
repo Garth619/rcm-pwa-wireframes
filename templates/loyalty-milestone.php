@@ -10,7 +10,7 @@
 			
 	<div id="rewards_points_wrapper">
 				
-			<span class="milestone_points_total">graph view list view??? 18&nbsp;/&nbsp;25</span><!-- profile_points -->
+			<span class="milestone_points_total">18&nbsp;/&nbsp;25</span><!-- profile_points -->
 				
 			<span class="milestone_points_title">Milestone Points</span><!-- points_title -->
 				
@@ -56,7 +56,7 @@
 					
 					<div class="milestone_single_slide">
 						
-						<span class="milestone_slide_title">Next Milestone: Free Edible</span><!-- milestone_slide_title -->
+						<span class="milestone_slide_title">Next Milestone:<br/> Free Edible</span><!-- milestone_slide_title -->
 						
 						<span class="milestone_slide_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</span><!-- milestone_slide_description -->
 						
@@ -74,11 +74,7 @@
 			
 			</div><!-- inner_section -->
 			
-			<?php include('loyalty-feed.php');?>
-			
-		
-		
-	</section><!-- loyalty_main -->
+		</section><!-- loyalty_main -->
 	
 <?php
 	
