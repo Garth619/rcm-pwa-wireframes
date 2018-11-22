@@ -123,6 +123,8 @@ jQuery(document).ready(function($){
 	  
 		$('.loyalty_tabs, .loyalty_feed_wrapper').addClass('open');
 		
+		$('.loyalty_feed.milestone').addClass('open');
+		
 		$('.tab_close').addClass('milestone').removeClass('rewards');
 	
 	});
@@ -138,6 +140,8 @@ jQuery(document).ready(function($){
 	  
 	  $(this).addClass('active');
 	  
+	  $('.loyalty_feed.rewards, .loyalty_feed.milestone').toggleClass('open');
+	  
 	});
 	
 	
@@ -151,6 +155,8 @@ jQuery(document).ready(function($){
 	$('.loyalty_tabs a.milestone.tab').on('click', function(e) {
 	  
 	  $('.tab_close').addClass('milestone').removeClass('rewards');
+	  
+	  
 	  
 	});
 	

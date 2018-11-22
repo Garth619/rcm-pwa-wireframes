@@ -1,6 +1,34 @@
+#rewards_points_wrapper {
+	text-align: center;
+	margin: 0px auto 0;
+	max-width: 335px;
+}
+
+span.milestone_points_total {
+	font-family: $oswald;
+	font-weight: 300;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 28px;
+	display: block;
+	margin-bottom:5px;
+}
+
+
+span.milestone_points_title {
+	font-family: $muli;
+	font-weight: 700;
+	color:$pink;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	font-size:16px;
+}
+
+
 .milestone_graph {
 	max-width: 335px;
-	margin:0 auto;
+	margin: 0px auto 0;
+	position: relative;
 }
 
 svg#graph_bg {
@@ -39,7 +67,7 @@ svg#graph_bg {
 	display: flex;
 	justify-content: space-between;
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 	span.graph_point {
 		width:18px;
 		height:18px;
@@ -99,27 +127,23 @@ span.graphline {
 	height:3px;
 	background: $pink;
 	transform: rotate(-32.4deg);
+	position: relative;
+	z-index: 1;
 }
 
 
-span.milestone_points_total {
-	font-family: $oswald;
-	color:#fff;
-	text-transform: uppercase;
-	font-size:32px;
+span.current_points_graphline {
 	display: block;
-	margin-bottom:10px;
+	width:2px;
+	height: 133px;
+	background: #614375;
+	position: absolute;
+	bottom: 47px;
+  left: 208px;
 }
 
 
-span.milestone_points_title {
-	font-family: $muli;
-	font-weight: 700;
-	color:$pink;
-	text-transform: uppercase;
-	letter-spacing: 0.15em;
-	font-size:16px;
-}
+
 
 
 .milestone_products_wrapper {
@@ -132,6 +156,7 @@ span.milestone_points_title {
 .milestone_button {
 	width:40px;
 	height:20px;
+	margin-top: 45px;
 	svg {
 		width:20px;
 		height:20px;
@@ -171,13 +196,55 @@ span.milestone_points_title {
 	span.milestone_slide_title {
 		color:$pink;
 		text-transform: uppercase;
-		font-size:15px;
+		font-size:16px;
 		font-weight: 700;
 		margin-bottom:16px;
+		line-height: 20px;
 	}
 	span.milestone_slide_description {
 		color:#fff;
 		font-size: 14px;
+	}
+}
+
+
+.milestone_inner_feed {
+	.loyalty_single_row {
+		.loyalty_single_left {
+			.loyalty_product_wrapper {
+				.image_overlay {
+					flex-direction: column;
+					svg {
+						width:23px;
+						height:23px;
+						display: block;
+						margin-bottom:7px;
+						fill:$teal;
+					}
+					span {
+						font-size:14px;
+					}
+				}
+			}
+		}
+		.loyalty_single_right {
+			h2 {
+				color:$grey;
+			}
+			svg {
+				fill:$pink;
+			}
+			span.loyalty_description {
+				margin-top:8px;
+			}
+		}
+	}
+	.loyalty_single_row.redeemed {
+		.loyalty_single_right {
+			h2 {
+				color:$pink;
+			}
+		}
 	}
 }
 

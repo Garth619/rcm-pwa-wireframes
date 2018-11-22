@@ -12,7 +12,7 @@
 				
 			<span class="milestone_points_total">18&nbsp;/&nbsp;25</span><!-- profile_points -->
 				
-			<span class="milestone_points_title">Milestone Points</span><!-- points_title -->
+			<span class="milestone_points_title">Points</span><!-- points_title -->
 				
 	</div><!-- rewards_points_wrapper -->
 			
