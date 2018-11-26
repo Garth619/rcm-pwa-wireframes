@@ -108,6 +108,8 @@ jQuery(document).ready(function($){
 
 	
 	$('a.loyalty.rewards').on('click', function(e) {
+		
+		$('.loyalty_tabs a.rewards.tab').addClass('active');
 	  
 		$('.loyalty_tabs, .loyalty_feed_wrapper').addClass('open');
 		
@@ -120,8 +122,10 @@ jQuery(document).ready(function($){
 	
 	
 	$('a.loyalty.milestone').on('click', function(e) {
+		
+		$('.loyalty_tabs a.milestone.tab').addClass('active');
 	  
-		$('.loyalty_tabs, .loyalty_feed_wrapper').addClass('open');
+		$('.loyalty_tabs, .loyalty_feed_wrapper, #graph_list_view_wrapper').addClass('open');
 		
 		$('.loyalty_feed.milestone').addClass('open');
 		
@@ -140,7 +144,7 @@ jQuery(document).ready(function($){
 	  
 	  $(this).addClass('active');
 	  
-	  $('.loyalty_feed.rewards, .loyalty_feed.milestone').toggleClass('open');
+	  $('.loyalty_feed.rewards, .loyalty_feed.milestone').toggleClass('open');// remove toggleclass bc of two click error
 	  
 	});
 	
@@ -149,12 +153,16 @@ jQuery(document).ready(function($){
 	  
 	  $('.tab_close').addClass('rewards').removeClass('milestone');
 	  
+	   $('#graph_list_view_wrapper').removeClass('open');
+	  
 	});
 	
 	
 	$('.loyalty_tabs a.milestone.tab').on('click', function(e) {
 	  
 	  $('.tab_close').addClass('milestone').removeClass('rewards');
+	  
+	  $('#graph_list_view_wrapper').addClass('open');
 	  
 	  
 	  
@@ -165,7 +173,9 @@ jQuery(document).ready(function($){
 	
 	$('.tab_close').on('click', function(e) {
 	  
-		$('.tab_close, .loyalty_tabs, .loyalty_feed_wrapper, .loyalty_feed').removeClass('open');
+		$('.tab_close, .loyalty_tabs, .loyalty_feed_wrapper, .loyalty_feed, #graph_list_view_wrapper').removeClass('open');
+		
+		$('.loyalty_tabs a.tab').removeClass('active');
 	
 	});
 	

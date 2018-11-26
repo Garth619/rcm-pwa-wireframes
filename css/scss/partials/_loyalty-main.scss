@@ -209,7 +209,7 @@ a.loyalty.milestone {
 }
 
 .loyalty_feed.milestone {
-	padding-top:55px;
+	padding-top: 68px;
 }
 
 
@@ -298,3 +298,341 @@ a.loyalty.milestone {
 		}
 	}
 }
+
+
+// milestone
+
+
+#rewards_points_wrapper {
+	text-align: center;
+	margin: 0px auto 0;
+	max-width: 335px;
+}
+
+
+#graph_list_view_wrapper {
+	position: fixed;
+	top:127px;
+	right:0px;
+	padding:0px 20px;
+	z-index:11;
+	background: $darkgrey;
+	width:100%;
+	transform: translateX(100%);
+	transition: transform 700ms cubic-bezier(.17,.66,.34,.98), opacity 300ms linear;
+	transition-delay: 200ms;
+}
+
+#graph_list_view_wrapper.open {
+	transform: translateX(0);
+	//transition-delay: 700ms;
+	.graph_list_view_inner {
+		opacity: 1;
+		transition-delay: 900ms;
+	}
+}
+
+.graph_list_view_inner {
+	position: relative;
+	margin:0 auto;
+	height:36px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	opacity: 0;
+	transition: opacity 300ms linear;
+	
+}
+
+
+.points_wrapper {
+	height:100%;
+	display: flex;
+	align-items: center;
+	span {
+		font-family: $muli;
+		font-weight: 600;
+		color:$pink;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		font-size:14px;
+		display: inline-block;
+		vertical-align: bottom;
+	}
+	span.milestone_points_total {
+		color:#fff;
+		margin-right:7px;
+		font-size:14px;
+	}
+	span.milestone_points_title {
+		color:$pink;
+		font-size:12px;
+		margin-top:2px;
+	}
+}
+
+
+
+.single_view_wrapper {
+	display: flex;
+		.single_view.active {
+			.graph_view-cls-1, .list_view-cls-1 {
+      	fill: $pink;
+    	}
+		}
+		.single_view {
+			margin:0 3px;
+			text-align: center;
+			flex-shrink: 0;
+			flex-basis: 29px;
+			svg {
+				width:25px;
+				height:20px;
+				display: block;
+				margin:0 auto;
+				.graph_view-cls-1, .list_view-cls-1 {
+        	fill: $grey;
+					transition: fill 200ms ease-in-out;
+      	}
+			}
+			span {
+				display: none;
+				color:#fff;
+				text-transform: uppercase;
+				font-family: $muli;
+				font-weight: 600;
+				font-size: 12px;
+				letter-spacing: 0.15em;
+				padding-left::0.15em;
+				margin-top:7px;
+			}
+		}
+	}
+
+
+
+
+.milestone_graph {
+	max-width: 335px;
+	margin: -20px auto 0;
+	position: relative;
+}
+
+svg#graph_bg {
+	width:335px;
+	height:220px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+
+.graph_numbers {
+	display: flex;
+	justify-content: space-between;
+	margin-top:22px;
+	span.graph_number {
+		color:#fff;
+		font-family: $oswald;
+		font-size:14px;
+		letter-spacing: 0.08em;
+		padding-bottom:5px;
+		border-bottom: 2px solid transparent;
+		transition: border 200ms ease-in-out;
+		span.points {
+			font-size:13px;
+		}
+	}
+	span.graph_number.active {
+		border-bottom: 2px solid $pink;
+	}
+}
+
+
+
+.graph_points {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	z-index: 2;
+	span.graph_point {
+		width:18px;
+		height:18px;
+		border-radius: 50%;
+		background: $pink;
+		display: block;
+		position: relative;
+		box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.22);
+		transform: scale(1);
+		transition: transform 600ms cubic-bezier(.17,.66,.34,.98);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&:after {
+			opacity: 0;
+			transition: all 200ms ease-in-out;
+			content:"";
+			width:12px;
+			height:12px;
+			display: block;
+			border-radius: 50%;
+			background: #fff;
+			border-radius: 50%;
+		}
+		&:first-of-type {
+			top: 224px;
+			left: 0px;
+		}
+		&:nth-of-type(2) {
+			top: 172px;
+		}
+		&:nth-of-type(3) {
+			top: 121px;
+		}
+		&:nth-of-type(4) {
+			top:71px;
+		}
+		&:nth-of-type(5) {
+			top: 20px;
+			right: -2px;
+		}
+	}
+	span.graph_point.active {
+		transform: scale(1.2);
+		&:after {
+			opacity: 1;
+			
+		}
+	}
+}
+
+
+span.graphline {
+	display: block;
+	width: 393px;
+	transform-origin: 374px 104px 0;
+	height:3px;
+	background: $pink;
+	transform: rotate(-32.4deg);
+	position: relative;
+	z-index: 1;
+}
+
+
+span.current_points_graphline {
+	display: block;
+	width:2px;
+	height: 133px;
+	background: #614375;
+	position: absolute;
+	bottom: 47px;
+  left: 208px;
+}
+
+
+
+
+
+.milestone_products_wrapper {
+	display: flex;
+	align-items: center;
+	margin:37px 0 0;
+}
+
+
+.milestone_button {
+	width:40px;
+	height:20px;
+	margin-top: 45px;
+	svg {
+		width:20px;
+		height:20px;
+		fill:#fff;
+	}
+}
+
+
+.milestone_left {
+	svg {
+		transform: rotate(-180deg);
+	}
+}
+
+
+.milestone_right {
+	display: flex;
+	justify-content: flex-end;
+	svg {
+		
+	}
+}
+
+
+.milestone_products_slider {
+	width:calc(100% - 80px);
+}
+
+.milestone_single_slide {
+	text-align: center;
+	span {
+		display: block;
+		font-family: $muli;
+		letter-spacing: 0.12em;
+		line-height: 19px;
+	}
+	span.milestone_slide_title {
+		color:$pink;
+		text-transform: uppercase;
+		font-size:16px;
+		font-weight: 700;
+		margin-bottom:16px;
+		line-height: 20px;
+	}
+	span.milestone_slide_description {
+		color:#fff;
+		font-size: 14px;
+	}
+}
+
+
+.milestone_inner_feed {
+	.loyalty_single_row {
+		.loyalty_single_left {
+			.loyalty_product_wrapper {
+				.image_overlay {
+					flex-direction: column;
+					svg {
+						width:23px;
+						height:23px;
+						display: block;
+						margin-bottom:7px;
+						fill:$teal;
+					}
+					span {
+						font-size:14px;
+					}
+				}
+			}
+		}
+		.loyalty_single_right {
+			h2 {
+				color:$grey;
+			}
+			svg {
+				fill:$pink;
+			}
+			span.loyalty_description {
+				margin-top:8px;
+			}
+		}
+	}
+	.loyalty_single_row.redeemed {
+		.loyalty_single_right {
+			h2 {
+				color:$pink;
+			}
+		}
+	}
+}
+
+
