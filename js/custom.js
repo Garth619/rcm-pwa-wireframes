@@ -144,7 +144,7 @@ jQuery(document).ready(function($){
 	  
 	  $(this).addClass('active');
 	  
-	  $('.loyalty_feed.rewards, .loyalty_feed.milestone').toggleClass('open');// remove toggleclass bc of two click error
+	  //$('.loyalty_feed.rewards, .loyalty_feed.milestone').toggleClass('open');// remove toggleclass bc of two click error
 	  
 	});
 	
@@ -153,7 +153,11 @@ jQuery(document).ready(function($){
 	  
 	  $('.tab_close').addClass('rewards').removeClass('milestone');
 	  
-	   $('#graph_list_view_wrapper').removeClass('open');
+	  $('#graph_list_view_wrapper').removeClass('open');
+	   
+	  $('.loyalty_feed.rewards').addClass('open');
+	  
+	  $('.loyalty_feed.milestone').removeClass('open');
 	  
 	});
 	
@@ -164,7 +168,9 @@ jQuery(document).ready(function($){
 	  
 	  $('#graph_list_view_wrapper').addClass('open');
 	  
+	  $('.loyalty_feed.milestone').addClass('open');
 	  
+	  $('.loyalty_feed.rewards').removeClass('open');
 	  
 	});
 	
@@ -199,6 +205,22 @@ jQuery(document).ready(function($){
 		
 		$(this).addClass('active');
 	
+	});
+	
+	$('#graph_list_view_wrapper .single_view.graph').on('click', function(e) {
+		
+		$('.milestone_inner_feed.list_feed').removeClass('open');
+		
+		$('.milestone_inner_feed.graph_feed').addClass('open');
+	  
+	});
+	
+	$('#graph_list_view_wrapper .single_view.list').on('click', function(e) {
+		
+		$('.milestone_inner_feed.graph_feed').removeClass('open');
+		
+		$('.milestone_inner_feed.list_feed').addClass('open');
+	  
 	});
 	
 	
