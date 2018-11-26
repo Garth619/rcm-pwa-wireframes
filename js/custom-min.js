@@ -29,6 +29,8 @@ t(".loyalty_tabs a.tab").on("click",function(e){t(".loyalty_tabs a.tab").removeC
 t(".tab_close").on("click",function(e){t(".tab_close, .loyalty_tabs, .loyalty_feed_wrapper, .loyalty_feed").removeClass("open")}),
 // loyalty single product stamp
 t(".stamp").on("click",function(e){t(this).toggleClass("clicked")}),
+// loyalty graph/list views
+t("#graph_list_view_wrapper .single_view").on("click",function(e){t(".single_view").removeClass("active"),t(this).addClass("active")}),
 // loyalty milestone graph points
 t("span.graph_point").on("click",function(e){t("span.graph_point").removeClass("active"),t(this).addClass("active"),
 // hacky hardcode just for visuals

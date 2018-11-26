@@ -187,7 +187,7 @@ a.loyalty.milestone {
 	margin:0;
 	padding:0 20px;
 	position: absolute;
-	top:90px;
+	top:57px;
 	left:0;
 	width:100%;
 	transform: translateY(-45px);
@@ -201,6 +201,15 @@ a.loyalty.milestone {
 	opacity: 1;
 	visibility: visible;
 	transition-delay: 700ms;
+}
+
+
+.loyalty_feed.rewards {
+	padding-top:40px;
+}
+
+.loyalty_feed.milestone {
+	padding-top:55px;
 }
 
 

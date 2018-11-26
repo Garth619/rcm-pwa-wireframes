@@ -1,0 +1,15 @@
+<svg id="graph_view" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 13.14">
+  <defs>
+    <style>
+     
+    </style>
+  </defs>
+  <title>Asset 3</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <polygon class="graph_view-cls-1" points="1.27 12.85 0.38 12.17 7.47 5.79 13.04 6.81 19.04 0.38 20 0.99 13.53 7.93 7.89 6.89 1.27 12.85"/>
+      <circle class="graph_view-cls-1" cx="18.75" cy="1.25" r="1.25"/>
+      <circle class="graph_view-cls-1" cx="1.25" cy="11.89" r="1.25"/>
+    </g>
+  </g>
+</svg>

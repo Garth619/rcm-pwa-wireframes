@@ -180,6 +180,17 @@ jQuery(document).ready(function($){
 	
 	});
 	
+	// loyalty graph/list views
+	
+	
+	$('#graph_list_view_wrapper .single_view').on('click', function(e) {
+	  
+		$('.single_view').removeClass('active');
+		
+		$(this).addClass('active');
+	
+	});
+	
 	
 	// loyalty milestone graph points
 	

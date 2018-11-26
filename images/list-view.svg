@@ -1,0 +1,18 @@
+<svg id="list_view" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.17 13.06">
+  <defs>
+    <style>
+      
+    </style>
+  </defs>
+  <title>Asset 2</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <circle class="list_view-cls-1" cx="1.25" cy="11.81" r="1.25"/>
+      <rect class="list_view-cls-1" x="5.14" y="11.31" width="16.03" height="1"/>
+      <circle class="list_view-cls-1" cx="1.25" cy="6.53" r="1.25"/>
+      <rect class="list_view-cls-1" x="5.14" y="6.06" width="16.03" height="1"/>
+      <circle class="list_view-cls-1" cx="1.25" cy="1.25" r="1.25"/>
+      <rect class="list_view-cls-1" x="5.14" y="0.81" width="16.03" height="1"/>
+    </g>
+  </g>
+</svg>

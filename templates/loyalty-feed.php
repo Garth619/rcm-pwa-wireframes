@@ -14,6 +14,42 @@
 					
 </div><!-- loyalty_tabs -->
 
+<div id="graph_list_view_wrapper">
+	
+	<div class="graph_list_view_inner">
+	
+		<div class="points_wrapper">
+		
+			<span class="milestone_points_total">18&nbsp;/&nbsp;25</span><!-- profile_points -->
+				
+			<span class="milestone_points_title">Points</span><!-- points_title -->
+			
+		</div><!-- points_wrapper -->
+	
+		<div class="single_view_wrapper">
+						
+			<div class="single_view active">
+							
+				<?php echo file_get_contents("" . $path . "/images/graph_view.svg"); ?>
+							
+				<span class="view_title">Graph</span><!-- view_title -->
+							
+			</div><!-- single_view -->
+						
+			<div class="single_view">
+							
+				<?php echo file_get_contents("" . $path . "/images/list-view.svg"); ?>
+							
+				<span class="view_title">List</span><!-- view_title -->
+							
+			</div><!-- single_view -->
+	
+		</div><!-- single_view_wrapper -->
+	
+	</div><!-- graph_list_view_inner -->
+						
+</div><!-- graph_list_view_wrapper -->
+
 <div class="loyalty_feed_wrapper">
 
 		<div class="loyalty_feed rewards">
@@ -26,7 +62,7 @@
 							
 							<div class="loyalty_product_wrapper">
 								
-								<img src="<?php echo $path;?>/images/test.png"/>
+								<img src="<?php echo $path;?>/images/test-product.jpg"/>
 								
 								<div class="image_overlay">
 									
@@ -60,7 +96,7 @@
 							
 							<div class="loyalty_product_wrapper">
 								
-								<img src="<?php echo $path;?>/images/test.png"/>
+								<img src="<?php echo $path;?>/images/test-product.jpg"/>
 								
 								<div class="image_overlay">
 									
@@ -94,7 +130,7 @@
 							
 							<div class="loyalty_product_wrapper">
 								
-								<img src="<?php echo $path;?>/images/test.png"/>
+								<img src="<?php echo $path;?>/images/test-product.jpg"/>
 								
 								<div class="image_overlay">
 									
@@ -128,7 +164,7 @@
 							
 							<div class="loyalty_product_wrapper">
 								
-								<img src="<?php echo $path;?>/images/test.png"/>
+								<img src="<?php echo $path;?>/images/test-product.jpg"/>
 								
 								<div class="image_overlay">
 									
@@ -162,7 +198,7 @@
 							
 							<div class="loyalty_product_wrapper">
 								
-								<img src="<?php echo $path;?>/images/test.png"/>
+								<img src="<?php echo $path;?>/images/test-product.jpg"/>
 								
 								<div class="image_overlay">
 									
@@ -196,7 +232,7 @@
 							
 							<div class="loyalty_product_wrapper">
 								
-								<img src="<?php echo $path;?>/images/test.png"/>
+								<img src="<?php echo $path;?>/images/test-product.jpg"/>
 								
 								<div class="image_overlay">
 									
@@ -228,7 +264,7 @@
 							
 							<div class="loyalty_product_wrapper">
 								
-								<img src="<?php echo $path;?>/images/test.png"/>
+								<img src="<?php echo $path;?>/images/test-product.jpg"/>
 								
 								<div class="image_overlay">
 									
@@ -260,7 +296,7 @@
 							
 							<div class="loyalty_product_wrapper">
 								
-								<img src="<?php echo $path;?>/images/test.png"/>
+								<img src="<?php echo $path;?>/images/test-product.jpg"/>
 								
 								<div class="image_overlay">
 									
@@ -291,11 +327,17 @@
 					
 					<div id="rewards_points_wrapper">
 				
-						<span class="milestone_points_total">18&nbsp;/&nbsp;25</span><!-- profile_points -->
+<!--
+						<span class="milestone_points_total">18&nbsp;/&nbsp;25</span>
 				
-						<span class="milestone_points_title">Points</span><!-- points_title -->
+						<span class="milestone_points_title">Points</span>
+-->
 				
 					</div><!-- rewards_points_wrapper -->
+					
+					
+					
+					<div class="milestone_inner_feed">
 			
 					<div class="milestone_graph">
 				
@@ -355,6 +397,8 @@
 				
 					</div><!-- milestone_products_wrapper -->
 					
+					</div><!-- milestone_inner_feed -->
+					
 					<div class="milestone_inner_feed">
 						
 						<div class="loyalty_single_row">
@@ -365,7 +409,7 @@
 							
 							<div class="loyalty_product_wrapper">
 								
-								<img src="<?php echo $path;?>/images/test.png"/>
+								<img src="<?php echo $path;?>/images/test-product.jpg"/>
 								
 								<div class="image_overlay">
 									
@@ -397,7 +441,7 @@
 							
 							<div class="loyalty_product_wrapper">
 								
-								<img src="<?php echo $path;?>/images/test.png"/>
+								<img src="<?php echo $path;?>/images/test-product.jpg"/>
 								
 								<div class="image_overlay">
 									
@@ -429,7 +473,7 @@
 							
 							<div class="loyalty_product_wrapper">
 
-								<img src="<?php echo $path;?>/images/test.png"/>
+								<img src="<?php echo $path;?>/images/test-product.jpg"/>
 								
 								<div class="image_overlay">
 									
