@@ -58,7 +58,7 @@ a.loyalty.milestone {
 
 .tab_close {
 	position: absolute;
-	top:21px;
+	top: 15px;
 	left:20px;
 	transform: translateX(-30px);
 	opacity: 0;
@@ -106,7 +106,7 @@ a.loyalty.milestone {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 0 12px;
+	padding: 15px 0 9px;
 	position: fixed;
 	top:69px;
 	background:$darkgrey;
@@ -118,35 +118,40 @@ a.loyalty.milestone {
 	transition: transform 600ms cubic-bezier(.17,.66,.34,.98);
 	transition-delay: 200ms;
 	border-bottom:1px solid $grey;
+	.tab_wrapper {
+		flex-basis: 50%;
+		text-align: center;
 	a.tab {
 		color:#fff;
 		text-transform: uppercase;
 		font-family: $muli;
 		font-weight:600;
 		letter-spacing: 0.13em;
-		display: block;
+		display: inline-block;
 		font-size:15px;
-		display: block;
 		text-decoration: none;
 		padding-bottom:6px;
 		border-bottom:1px solid transparent;
 		transition: border 200ms ease-in-out, opacity 500ms linear;
 		opacity: 0;
-	}
-	span.divider {
-		width:1px;
-		height:25px;
-		display:block;
-		background: $grey;
-		margin:0 20px;
-		opacity: 0;
-		transition:opacity 300ms linear;
+		text-align: center;
 	}
 	a.rewards.active {
 		border-bottom:1px solid $teal;
 	}
 	a.milestone.active {
 		border-bottom:1px solid $pink;
+	}
+	}
+	span.divider {
+		width:1px;
+		flex-shrink: 0;
+		height:25px;
+		display:block;
+		background: $grey;
+		margin:0 0px;
+		opacity: 0;
+		transition:opacity 300ms linear;
 	}
 }
 
@@ -206,7 +211,7 @@ a.loyalty.milestone {
 
 
 .loyalty_feed.rewards {
-	padding-top:40px;
+	padding-top: 23px;
 }
 
 .loyalty_feed.milestone {
@@ -313,15 +318,17 @@ a.loyalty.milestone {
 
 #graph_list_view_wrapper {
 	position: fixed;
-	top:127px;
+	top: 119px;
 	right:0px;
 	padding:0px 20px;
 	z-index:11;
+// 	border-bottom:1px solid $grey;
 	background: $darkgrey;
 	width:100%;
 	transform: translateX(100%);
 	transition: transform 700ms cubic-bezier(.17,.66,.34,.98), opacity 300ms linear;
 	transition-delay: 200ms;
+	    
 }
 
 #graph_list_view_wrapper.open {
@@ -336,7 +343,7 @@ a.loyalty.milestone {
 .graph_list_view_inner {
 	position: relative;
 	margin:0 auto;
-	height:36px;
+	height: 47px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -350,25 +357,27 @@ a.loyalty.milestone {
 	height:100%;
 	display: flex;
 	align-items: center;
+	//margin-right:10px;
 	span {
 		font-family: $muli;
 		font-weight: 600;
 		color:$pink;
 		text-transform: uppercase;
 		letter-spacing: 0.12em;
-		font-size:14px;
 		display: inline-block;
 		vertical-align: bottom;
 	}
 	span.milestone_points_total {
 		color:#fff;
-		margin-right:7px;
-		font-size:14px;
+		margin-right:5px;
+		font-size: 16px;
+		font-family: $oswald;
+		font-weight: 400;
 	}
 	span.milestone_points_title {
 		color:$pink;
 		font-size:12px;
-		margin-top:2px;
+		margin-top:5px;
 	}
 }
 
@@ -376,6 +385,11 @@ a.loyalty.milestone {
 
 .single_view_wrapper {
 	display: flex;
+/*
+	position: absolute;
+	top:9px;
+	right:0;
+*/
 		.single_view.active {
 			.graph_view-cls-1, .list_view-cls-1 {
       	fill: $pink;
@@ -639,7 +653,7 @@ span.current_points_graphline {
 
 .milestone_inner_feed {
 	position: absolute;
-	top:68px;
+	top:55px;
 	left:0;
 	width:100%;
 	padding:0 20px;
