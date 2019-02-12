@@ -64,8 +64,8 @@
 		<div class="loyalty_feed rewards">
 					
 					<div class="loyalty_single_row">
-						
-						<a href="<?php echo $path;?>/templates/loyalty-single-deal.php">
+						 
+						<a href="http://facebook.com">
 						
 						<div class="loyalty_single_left">
 							
@@ -338,7 +338,7 @@
 				
 					</div><!-- rewards_points_wrapper -->
 					
-					<div class="milestone_inner_feed list_feed open">
+					<div class="milestone_inner_feed list_feed">
 						
 						<div class="loyalty_single_row">
 						

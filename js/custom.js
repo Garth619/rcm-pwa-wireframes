@@ -125,11 +125,13 @@ jQuery(document).ready(function($){
 		
 		$('.loyalty_tabs a.milestone.tab').addClass('active');
 	  
-		$('.loyalty_tabs, .loyalty_feed_wrapper, #graph_list_view_wrapper').addClass('open');
+		$('.loyalty_tabs, .loyalty_feed_wrapper, #graph_list_view_wrapper, .milestone_inner_feed.list_feed').addClass('open');
 		
 		$('.loyalty_feed.milestone').addClass('open');
 		
 		$('.tab_close').addClass('milestone').removeClass('rewards');
+		
+		$('.list').addClass('active');
 	
 	});
 	
@@ -157,7 +159,9 @@ jQuery(document).ready(function($){
 	   
 	  $('.loyalty_feed.rewards').addClass('open');
 	  
-	  $('.loyalty_feed.milestone').removeClass('open');
+	  $('.loyalty_feed.milestone, .milestone_inner_feed.list_feed, .milestone_inner_feed.graph_feed').removeClass('open');
+	  
+	  $('.graph').removeClass('active');
 	  
 	});
 	
@@ -168,9 +172,14 @@ jQuery(document).ready(function($){
 	  
 	  $('#graph_list_view_wrapper').addClass('open');
 	  
-	  $('.loyalty_feed.milestone').addClass('open');
+	  $('.loyalty_feed.milestone, .milestone_inner_feed.list_feed').addClass('open');
 	  
 	  $('.loyalty_feed.rewards').removeClass('open');
+	  
+	   
+	  $('.list').addClass('active');
+	  
+	  
 	  
 	});
 	
@@ -179,9 +188,11 @@ jQuery(document).ready(function($){
 	
 	$('.tab_close').on('click', function(e) {
 	  
-		$('.tab_close, .loyalty_tabs, .loyalty_feed_wrapper, .loyalty_feed, #graph_list_view_wrapper').removeClass('open');
+		$('.tab_close, .loyalty_tabs, .loyalty_feed_wrapper, .loyalty_feed, #graph_list_view_wrapper, .milestone_inner_feed.graph_feed, .graph').removeClass('open');
 		
 		$('.loyalty_tabs a.tab').removeClass('active');
+		
+		 $('.list, .graph').removeClass('active');
 	
 	});
 	
