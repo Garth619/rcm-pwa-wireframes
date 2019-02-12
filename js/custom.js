@@ -328,6 +328,15 @@ jQuery(document).ready(function($){
 	});
 	
 	
+	// loyalty version one
+	
+	
+	$('.loyalty_v_one').on('click', function(e) {
+	  
+	  $('.version_one').addClass('open');
+	
+	});
+	
 	
 	
 	
