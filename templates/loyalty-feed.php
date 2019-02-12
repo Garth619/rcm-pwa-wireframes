@@ -65,7 +65,7 @@
 					
 					<div class="loyalty_single_row">
 						 
-						<a href="http://facebook.com">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
@@ -99,7 +99,7 @@
 					
 					<div class="loyalty_single_row">
 						
-						<a href="<?php echo $path;?>/templates/loyalty-single-deal-v2.php">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
@@ -133,7 +133,7 @@
 					
 					<div class="loyalty_single_row">
 						
-						<a href="">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
@@ -167,7 +167,7 @@
 
 					<div class="loyalty_single_row">
 						
-						<a href="">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
@@ -201,7 +201,7 @@
 
 					<div class="loyalty_single_row">
 						
-						<a href="">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
@@ -235,7 +235,7 @@
 					
 					<div class="loyalty_single_row">
 						
-						<a href="">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
@@ -267,7 +267,7 @@
 					
 					<div class="loyalty_single_row">
 						
-						<a href="">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
@@ -299,7 +299,7 @@
 					
 					<div class="loyalty_single_row">
 						
-						<a href="">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
@@ -342,7 +342,7 @@
 						
 						<div class="loyalty_single_row">
 						
-						<a href="<?php echo $path;?>/templates/loyalty-single-deal.php">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
@@ -374,7 +374,7 @@
 					
 					<div class="loyalty_single_row">
 						
-						<a href="<?php echo $path;?>/templates/loyalty-single-deal.php">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
@@ -406,7 +406,7 @@
 					
 					<div class="loyalty_single_row redeemed">
 						
-						<a href="<?php echo $path;?>/templates/loyalty-single-deal.php">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
@@ -440,7 +440,7 @@
 					
 					<div class="loyalty_single_row redeemed">
 						
-						<a href="<?php echo $path;?>/templates/loyalty-single-deal.php">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
@@ -474,7 +474,7 @@
 					
 					<div class="loyalty_single_row redeemed">
 						
-						<a href="<?php echo $path;?>/templates/loyalty-single-deal.php">
+						<a>
 						
 						<div class="loyalty_single_left">
 							
