@@ -356,7 +356,21 @@ jQuery(document).ready(function($){
 	
 	});
 	
-
+	
+	// gallery
+	
+	
+	$('.single_gallery').on('click', function(e) {
+	  
+		$('.gallery_overlay').addClass('open');
+	
+	});
+	
+	$('.gallery_overlay').on('click', function(e) {
+	  
+		$(this).removeClass('open');
+	
+	});
 
 
 }); // Document Ready

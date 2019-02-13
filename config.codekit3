@@ -42,6 +42,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/css/scss/partials/_gallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_gallery.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/css/scss/partials/_global.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -286,6 +299,94 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/g.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/gallery.jpg": {
+		"ft": 16384,
+		"iS": 146942,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/gallery.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/gallery_eight.jpg": {
+		"ft": 16384,
+		"iS": 126539,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/gallery_eight.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/gallery_five.jpg": {
+		"ft": 16384,
+		"iS": 90631,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/gallery_five.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/gallery_four.jpg": {
+		"ft": 16384,
+		"iS": 295449,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/gallery_four.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/gallery_seven.jpg": {
+		"ft": 16384,
+		"iS": 128279,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/gallery_seven.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/gallery_six.jpg": {
+		"ft": 16384,
+		"iS": 198726,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/gallery_six.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/gallery_three.jpg": {
+		"ft": 16384,
+		"iS": 474975,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/gallery_three.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/gallery_two.jpg": {
+		"ft": 16384,
+		"iS": 187613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/gallery_two.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -671,6 +772,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/functions.php",
+		"oF": 0
+		},
+	"/templates/gallery.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/gallery.php",
 		"oF": 0
 		},
 	"/templates/header.php": {

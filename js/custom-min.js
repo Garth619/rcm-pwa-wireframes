@@ -44,4 +44,6 @@ t(".loyalty_v_one").on("click",function(e){t(".version_one, .product_close").add
 // loyalty version two
 t(".loyalty_v_two").on("click",function(e){t(".version_two, .product_close").addClass("open")}),
 // loyalty product close
-t(".product_close").on("click",function(e){t(".version_one, .version_two, .product_close").removeClass("open")})});// Document Ready
+t(".product_close").on("click",function(e){t(".version_one, .version_two, .product_close").removeClass("open")}),
+// gallery
+t(".single_gallery").on("click",function(e){t(".gallery_overlay").addClass("open")}),t(".gallery_overlay").on("click",function(e){t(this).removeClass("open")})});// Document Ready

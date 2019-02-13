@@ -100,7 +100,7 @@
 				
 				<li>
 					
-					<a href="">
+					<a href="<?php echo $path;?>/templates/gallery.php">
 						
 						<span class="menu_icon">
 							
