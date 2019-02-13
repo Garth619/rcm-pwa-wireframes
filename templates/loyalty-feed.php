@@ -99,7 +99,7 @@
 					
 					<div class="loyalty_single_row">
 						
-						<a>
+						<a class="loyalty_v_two">
 						
 						<div class="loyalty_single_left">
 							
@@ -575,6 +575,8 @@
 			</div><!-- loyalty_feed_wrapper -->
 			
 			<?php include('loyalty-single-deal.php');?>
+			
+			<?php include('loyalty-single-deal-v2.php');?>
 			
 			
 			

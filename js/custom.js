@@ -333,12 +333,28 @@ jQuery(document).ready(function($){
 	
 	$('.loyalty_v_one').on('click', function(e) {
 	  
-	  $('.version_one').addClass('open');
+	  $('.version_one, .product_close').addClass('open');
 	
 	});
 	
 	
+	// loyalty version two
 	
+	$('.loyalty_v_two').on('click', function(e) {
+	  
+	  $('.version_two, .product_close').addClass('open');
+	
+	});
+	
+	
+	// loyalty product close
+	
+	
+	$('.product_close').on('click', function(e) {
+	  
+	  $('.version_one, .version_two, .product_close').removeClass('open');
+	
+	});
 	
 
 

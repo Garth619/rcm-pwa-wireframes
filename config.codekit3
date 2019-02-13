@@ -722,6 +722,13 @@
 		"oAP": "/templates/loyalty-single-deal copy.php",
 		"oF": 0
 		},
+	"/templates/loyalty-single-deal-v2 copy.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/loyalty-single-deal-v2 copy.php",
+		"oF": 0
+		},
 	"/templates/loyalty-single-deal-v2.php": {
 		"cB": 0,
 		"ft": 8192,

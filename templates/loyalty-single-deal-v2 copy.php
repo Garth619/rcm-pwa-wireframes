@@ -1,8 +1,10 @@
-<div class="loyalty_product version_two">
-		
-	<div class="product_close"></div><!-- product_close -->
-		
-		<div class="product_container">
+<?php //loyalty main
+	
+	include('functions.php');
+	include('header.php');?>
+	
+	
+	<section id="loyalty_main" class="section_template">
 		
 		<div class="inner_section">
 			
@@ -39,12 +41,13 @@
 			</a><!-- redeem_button -->
 			
 			</div><!-- inner_section -->
-		
-			</div><!-- product_container -->
 			
-		</div><!-- loyalty_product -->
-			
-		
+			<?php include('loyalty-feed.php');?>
 			
 		
 		
+	</section><!-- loyalty_main -->
+	
+<?php
+	
+	include('footer.php');?>

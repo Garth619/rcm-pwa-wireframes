@@ -1,4 +1,8 @@
-	<div class="loyalty_product version_one">
+<div class="loyalty_product version_one">
+		
+	<div class="product_close"></div><!-- product_close -->
+		
+		<div class="product_container">
 		
 		<div class="inner_section">
 			
@@ -37,6 +41,8 @@
 			</a><!-- redeem_button -->
 			
 			</div><!-- inner_section -->
+			
+			</div><!-- product_container -->
 			
 		</div><!-- loyalty_product -->
 			

@@ -29,6 +29,8 @@
 		</section><!-- loyalty_main -->
 		
 		<?php include('loyalty-feed.php');?>
+		
+		
 	
 <?php
 	
