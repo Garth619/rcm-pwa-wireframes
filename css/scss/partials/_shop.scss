@@ -1,12 +1,15 @@
 #shop {
 	position:relative;
 	z-index:1;
+	h1 {
+		text-align: center;
+	}
 }
 
 
 .svg_header {
-	position: absolute;
-	top:0;
+	position: fixed;
+	top:0px;
 	left:0;
 	width:100%;
 	svg#header_gradient {
@@ -45,18 +48,18 @@
 
 .product_feed {
 	margin:63px 0 0;
-	padding:0 25px;
 }
 
 
 .product_row {
-	
+	margin-bottom:15px;
 }
 
 
 .product_category_wrapper {
 	display: flex;
 	justify-content: space-between;
+	padding:0 45px;
 	span.product_category {
 		color:$bluelight;
 		text-transform: uppercase;
@@ -79,19 +82,66 @@
 .product_inner_row {
 	display: flex;
 	margin-top:10px;
+	overflow-x: scroll;
+	padding-bottom:25px;
+	-webkit-overflow-scrolling: touch;
 }
 
 .single_product {
 	flex-basis:200px;
-	
-	
+	flex-shrink:0;
+	margin-right:5px;
+	&:first-of-type {
+		margin-left:45px;
+	}
 	.product_img_wrapper {
 		height:155px;
+		position: relative;
 		img {
 			max-width:100%;
 			height:auto;
 			display: block;
 			border-radius: 10px;
 		}
+		.see_more_icon {
+			width:21px;
+			height:21px;
+			border-radius: 50%;
+			border:2px solid $bluelight;
+			position: absolute;
+			top:10px;
+			right:10px;
+			&:before {
+				content:"+";
+				color:$bluelight;
+				font-family: $muli;
+				font-weight:900;
+				font-size:20px;
+				position: absolute;
+				line-height: 17px;
+				top:-2px;
+				left:2px;
+			}
+		}
+	}
+	span {
+		display: block;
+		font-family: $muli;
+		font-weight:600;
+		font-size:15px;
+		letter-spacing: 0.04em;
+		margin-bottom:5px;
+	}
+	span.product_price {
+		color:$bluelight;
+		margin-top:12px;
+	}
+	span.product_name {
+		color:#fff;
+	}
+	span.company_name {
+		color:$grey;
 	}
 }
+
+
