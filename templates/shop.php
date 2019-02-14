@@ -3,6 +3,9 @@
 	include('functions.php');
 	include('header.php');?>
 	
+	
+	<!-- sticky reg header -->
+	
 	<div class="svg_header">
 			
 		<?php echo file_get_contents("" . $path . "/images/mobile_header_shapes.svg"); ?>
