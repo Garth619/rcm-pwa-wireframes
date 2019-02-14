@@ -4,6 +4,8 @@
 	include('header.php');?>
 	
 	
+	<!-- do swiping left right and swipe down to close, also htmll 5 video -->
+	
 	<section id="gallery" class="section_template">
 		
 		<h1 class="section_title">Gallery</h1><!-- section_title -->

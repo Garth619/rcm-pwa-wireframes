@@ -198,6 +198,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/css/scss/partials/_shop.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_shop.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/css/scss/partials/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -292,6 +305,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/edible.jpg": {
+		"ft": 16384,
+		"iS": 41457,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/edible.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/flower.jpg": {
+		"ft": 16384,
+		"iS": 20302,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/flower.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/images/g.jpg": {
 		"ft": 16384,
@@ -585,6 +620,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/mobile_header_shapes.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/mobile_header_shapes.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/overlay_arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -620,6 +665,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/punchcard_pattern-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/settings.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/settings.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -688,6 +743,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/vaporizer.jpg": {
+		"ft": 16384,
+		"iS": 25203,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/vaporizer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"/images/weed-icon.svg": {
 		"ft": 2097152,
@@ -870,6 +936,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/promo.php",
+		"oF": 0
+		},
+	"/templates/shop.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/shop.php",
 		"oF": 0
 		}
 	},

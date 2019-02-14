@@ -36,7 +36,7 @@
 				
 				<li>
 					
-					<a href="">
+					<a href="<?php echo $path;?>/templates/shop.php">
 						
 						<span class="menu_icon">
 							
