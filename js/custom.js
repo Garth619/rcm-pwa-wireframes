@@ -1,24 +1,16 @@
 // @codekit-prepend 'jquery.3.3.1.js'
+// @codekit-prepend 'waypoints.js'
+
 
 
 
 
 jQuery(document).ready(function($){
-
-
-	// nav
-
-	$('#menu_wrapper').on('click', function(e) {
-	  
-		$('nav').addClass('open');
-	
-	});
-	
 	
 	
 	// notification center
 	
-	$('#notifications_wrapper').on('click', function(e) {
+	$('.notifications_wrapper').on('click', function(e) {
 	  
 		$('#notifications').addClass('open');
 	
@@ -28,10 +20,73 @@ jQuery(document).ready(function($){
 	
 	$('.close_overlay').on('click', function(e) {
 	  
-	$('nav, #notifications').removeClass('open');
+		$('nav, #notifications').removeClass('open');
 	
 	});
 	
+	
+	// nav
+
+	$('.menu_wrapper').on('click', function(e) {
+	  
+		$('nav').addClass('open');
+	
+	});
+	
+	
+	
+	/* Waypoints
+     --------------------------------------------------------------------------------------- */
+
+
+    function createWaypoint(triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
+      if($('#' + triggerElementId).length) {
+        var waypoint = new Waypoint({
+          element: document.getElementById(triggerElementId),
+          handler: function (direction) {
+            if (direction === 'down') {
+              $(animatedElement).addClass(className);
+
+              if (typeof functionName === 'function') {
+                functionName();
+                this.destroy();
+              }
+
+            } else if (direction === 'up') {
+              if (reverse) {
+                $(animatedElement).removeClass(className);
+              }
+
+            }
+          },
+          offset: offsetVal
+         
+        });
+      }
+    }
+    
+    
+   // white header sticky header 
+   
+  
+   
+	 $('header').clone(true).prependTo('body').addClass('sticky_header');
+   
+   
+	 // super hacky way of removing the whote header class after the clone above, fires just once on scroll, need a better event listener instead that doesn't involve scroll
+   
+  $(document).one('scroll', function(e) {
+   	  
+   		$('.sticky_header').removeClass('white_header');
+   	      		
+  });
+  
+  // createWaypoint('shop', '.sticky_header', 'visible', -80, null, true);
+   
+   
+  createWaypoint('shop', '.sticky_header', 'visible', -80, null, true);
+	
+
 	
 	// Promo Slides
 	

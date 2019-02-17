@@ -802,12 +802,22 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/js/waypoints.min.js": {
+	"/js/sticky.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/waypoints.min-min.js",
+		"oAP": "/js/sticky-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/waypoints.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/js/waypoints-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

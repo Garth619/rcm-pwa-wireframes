@@ -45,9 +45,9 @@
 
 <header>
 	
-	<div id="header_left">
+	<div class="header_left">
 		
-		<a id="logo" href="<?php echo $path;?>">
+		<a class="logo" href="<?php echo $path;?>">
 			
 			<?php echo file_get_contents("" . $path . "/images/logo-final.svg"); ?>
 			
@@ -55,9 +55,9 @@
 		
 	</div><!-- header_left -->
 	
-	<div id="header_right">
+	<div class="header_right">
 		
-		<div id="contact_icon">
+		<div class="contact_icon">
 			
 			<a href="">
 				
@@ -67,7 +67,7 @@
 			
 		</div><!-- contact_icon -->
 		
-		<div id="notifications_wrapper">
+		<div class="notifications_wrapper">
 			
 			<span class="profile_initial">g</span><!-- profile_initial -->
 			
@@ -75,7 +75,7 @@
 			
 		</div><!-- notifications -->
 		
-		<div id="menu_wrapper">
+		<div class="menu_wrapper">
 			
 			<span class="menu_bar"></span><!-- menu_bar -->
 			<span class="menu_bar"></span><!-- menu_bar -->
@@ -85,13 +85,12 @@
 		
 	</div><!-- header_right -->
 	
-	
-	<?php
+</header>
+
+<?php
 		
 		include('notifications.php');
 		include('navigation.php');
 	
 	?>
-	
-</header>
 

@@ -12,7 +12,7 @@
 		
 	</div><!-- svg_header -->
 	
-	<section id="shop" class="section_template">
+	<section id="shop" class="white_header_template">
 		
 		
 			

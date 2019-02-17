@@ -16,13 +16,15 @@ header {
 
 
 
-#header_left {
-	a#logo {
+.header_left {
+	a.logo {
 		display: block;
-		svg#rcm_logo {
+		svg {
 			width:150px;
 				.rcm_logo-cls-1 {
 					fill: none;
+					opacity: 1;
+					visibility: visible;
 				}
 				.rcm_logo-cls-2 {
 					clip-path: url(#clip-path);
@@ -37,7 +39,7 @@ header {
 	}
 }
 
-#header_right {
+.header_right {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -45,7 +47,7 @@ header {
 }
 
 
-#contact_icon {
+.contact_icon {
 	margin-right:10px;
 	cursor: pointer;
 	a {
@@ -59,7 +61,7 @@ header {
 	}
 }
 
-#notifications_wrapper {
+.notifications_wrapper {
 	font-family: $oswald;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -93,7 +95,7 @@ header {
 	}
 }
 
-#menu_wrapper {
+.menu_wrapper {
 	width:45px;
 	display: flex;
 	flex-direction: column;
@@ -121,9 +123,12 @@ header {
 
 header.white_header {
 	background: transparent;
-	#header_left {
-		a#logo {
-			svg#rcm_logo {
+	position: absolute;
+	.header_left {
+		a.logo {
+			
+			svg {
+				
 				.rcm_logo-cls-1 {
 					fill: none;
 				}
@@ -140,14 +145,14 @@ header.white_header {
 		}
 		
 	}
-	#contact_icon {
+	.contact_icon {
 		a {
 			svg {
 				fill:#fff;
 			}
 		}
 	}
-	#notifications_wrapper {
+	.notifications_wrapper {
 		span.profile_initial {
 			background:#fff;
 			color:#717171;
@@ -157,11 +162,44 @@ header.white_header {
 
 
 
+
+
+header.sticky_header {
+	background: $black;
+	position: fixed;
+	z-index:16;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 300ms ease-in-out;
+}
+
+header.sticky_header.visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+.svg_header {
+	position: absolute;
+	top:-45px;
+	left:0;
+	width:100%;
+	min-width: 450px;
+	svg#header_gradient {
+		width:100%;
+		height:230px;
+	}
+}
+
+
+
+
 @media screen and (min-width: 400px) {
 	
 	
-#header_left {
-	a#logo {
+.header_left {
+	a.logo {
 		svg {
 			width:180px;
 		}
