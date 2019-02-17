@@ -211,6 +211,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/css/scss/partials/_single_product.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_single_product.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/css/scss/partials/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -953,6 +966,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/shop.php",
+		"oF": 0
+		},
+	"/templates/single_product.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/single_product.php",
 		"oF": 0
 		}
 	},

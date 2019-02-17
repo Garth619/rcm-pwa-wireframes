@@ -523,8 +523,8 @@
 					
 				</div><!-- product_feed -->
 			
-		
-		
 	</section><!-- shop -->
+	
+<?php include('single_product.php');?>
 	
 <?php include('footer.php');?>
