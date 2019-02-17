@@ -83,17 +83,15 @@ jQuery(document).ready(function(a){
 /* Waypoints
      --------------------------------------------------------------------------------------- */
 function e(e,t,n,r,i,o){if(a("#"+e).length)var s=new Waypoint({element:document.getElementById(e),handler:function(e){"down"===e?(a(t).addClass(n),"function"==typeof i&&(i(),this.destroy())):"up"===e&&o&&a(t).removeClass(n)},offset:r})}
-// white header sticky header 
+// white header/sticky header combo
 // notification center
 a(".notifications_wrapper").on("click",function(e){a("#notifications").addClass("open")}),
 // All Overlays
 a(".close_overlay").on("click",function(e){a("nav, #notifications").removeClass("open")}),
 // nav
-a(".menu_wrapper").on("click",function(e){a("nav").addClass("open")}),a("header").clone(!0).prependTo("body").addClass("sticky_header"),
-// super hacky way of removing the whote header class after the clone above, fires just once on scroll, need a better event listener instead that doesn't involve scroll
-a(document).one("scroll",function(e){a(".sticky_header").removeClass("white_header")}),
-// createWaypoint('shop', '.sticky_header', 'visible', -80, null, true);
-e("shop",".sticky_header","visible",-80,null,!0),
+a(".menu_wrapper").on("click",function(e){a("nav").addClass("open")}),a("#svg_header")[0]&&(a("header").addClass("white_header"),a("header.white_header").clone(!0).prependTo("body").addClass("sticky_header"),
+// super hacky way of removing the white header class after the clone above, fires just once on scroll, need a better event listener instead that doesn't involve scroll
+a(document).one("scroll",function(e){a(".sticky_header").removeClass("white_header")}),e("svg_header",".sticky_header","visible",-180,null,!0)),
 // Promo Slides
 a(".tap").on("click",function(e){
 // something very simple like https://www.w3schools.com/howto/howto_js_slideshow.asp

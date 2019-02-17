@@ -6,13 +6,13 @@
 	
 	<!-- sticky reg header -->
 	
-	<div class="svg_header">
+	<div id="svg_header">
 			
 		<?php echo file_get_contents("" . $path . "/images/mobile_header_shapes.svg"); ?>
 		
 	</div><!-- svg_header -->
 	
-	<section id="shop" class="white_header_template">
+	<section id="shop">
 		
 		
 			
@@ -526,15 +526,5 @@
 		
 		
 	</section><!-- shop -->
-	
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-
-	$('header').addClass('white_header');
-
-}); // Document Ready
-
-</script>
 	
 <?php include('footer.php');?>

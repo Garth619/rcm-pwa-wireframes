@@ -66,27 +66,28 @@ jQuery(document).ready(function($){
     }
     
     
-   // white header sticky header 
-   
+  // white header/sticky header combo
   
+  
+  
+  	if ($("#svg_header")[0]){
+   	
+   		$('header').addClass('white_header');
+   		
+   		$('header.white_header').clone(true).prependTo('body').addClass('sticky_header');
    
-	 $('header').clone(true).prependTo('body').addClass('sticky_header');
+	 		// super hacky way of removing the white header class after the clone above, fires just once on scroll, need a better event listener instead that doesn't involve scroll
    
-   
-	 // super hacky way of removing the whote header class after the clone above, fires just once on scroll, need a better event listener instead that doesn't involve scroll
-   
-  $(document).one('scroll', function(e) {
+	 		$(document).one('scroll', function(e) {
    	  
-   		$('.sticky_header').removeClass('white_header');
+   			$('.sticky_header').removeClass('white_header');
    	      		
-  });
+	 		});
   
-  // createWaypoint('shop', '.sticky_header', 'visible', -80, null, true);
-   
-   
-  createWaypoint('shop', '.sticky_header', 'visible', -80, null, true);
-	
-
+	 		createWaypoint('svg_header', '.sticky_header', 'visible', -180, null, true);
+  	
+  	}
+  
 	
 	// Promo Slides
 	
