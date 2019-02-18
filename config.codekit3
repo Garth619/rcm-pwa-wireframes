@@ -16,19 +16,6 @@
 		"oAP": "/.htaccess",
 		"oF": 0
 		},
-	"/css/scss/partials/_about.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/scss/partials/_about.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/css/scss/partials/_events.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -168,6 +155,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/scss/partials/_notifications.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/css/scss/partials/_page-default.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_page-default.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -915,6 +915,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/home.php",
+		"oF": 0
+		},
+	"/templates/leave-a-review.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/leave-a-review.php",
 		"oF": 0
 		},
 	"/templates/loyalty-feed.php": {

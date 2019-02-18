@@ -132,7 +132,7 @@
 				
 				<li>
 					
-					<a href="">
+					<a href="<?php echo $path;?>/templates/leave-a-review.php">
 						
 						<span class="menu_icon">
 							

@@ -26,7 +26,23 @@
 						
 						<span class="events_meta">7PM&nbsp;&nbsp;|&nbsp;&nbsp;Location</span><!-- events_meta -->
 						
-						<div class="event_description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </div><!-- event_description -->
+						<div class="event_description">
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+							
+							<ul>
+								<li>sectetuer adipiscing elit, sed dia</li>
+								<li>se tet uer adi pis cing elit, sed dia</li>
+								<li>dolt, consectetuer adipiscing elit, sed diam nonumm</li>
+								<li>dolor sit amet, consectetuer adipiscing elit, sed diam nonumm</li>
+							</ul>
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+						
+						
+						</div><!-- event_description -->
 						
 						<div class="event_buttons">
 							
@@ -61,7 +77,23 @@
 						
 						<span class="events_meta">7PM&nbsp;&nbsp;|&nbsp;&nbsp;Location</span><!-- events_meta -->
 						
-						<div class="event_description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </div><!-- event_description -->
+						<div class="event_description">
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+							
+							<ul>
+								<li>sectetuer adipiscing elit, sed dia</li>
+								<li>se tet uer adi pis cing elit, sed dia</li>
+								<li>dolt, consectetuer adipiscing elit, sed diam nonumm</li>
+								<li>dolor sit amet, consectetuer adipiscing elit, sed diam nonumm</li>
+							</ul>
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+						
+						
+						</div><!-- event_description -->
 						
 						<div class="event_buttons">
 							
@@ -96,7 +128,23 @@
 						
 						<span class="events_meta">7PM&nbsp;&nbsp;|&nbsp;&nbsp;Location</span><!-- events_meta -->
 						
-						<div class="event_description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </div><!-- event_description -->
+						<div class="event_description">
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+							
+							<ul>
+								<li>sectetuer adipiscing elit, sed dia</li>
+								<li>se tet uer adi pis cing elit, sed dia</li>
+								<li>dolt, consectetuer adipiscing elit, sed diam nonumm</li>
+								<li>dolor sit amet, consectetuer adipiscing elit, sed diam nonumm</li>
+							</ul>
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+						
+						
+						</div><!-- event_description -->
 						
 						<div class="event_buttons">
 							
@@ -131,7 +179,23 @@
 						
 						<span class="events_meta">7PM&nbsp;&nbsp;|&nbsp;&nbsp;Location</span><!-- events_meta -->
 						
-						<div class="event_description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </div><!-- event_description -->
+						<div class="event_description">
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+							
+							<ul>
+								<li>sectetuer adipiscing elit, sed dia</li>
+								<li>se tet uer adi pis cing elit, sed dia</li>
+								<li>dolt, consectetuer adipiscing elit, sed diam nonumm</li>
+								<li>dolor sit amet, consectetuer adipiscing elit, sed diam nonumm</li>
+							</ul>
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+						
+						
+						</div><!-- event_description -->
 						
 						<div class="event_buttons">
 							
@@ -166,7 +230,23 @@
 						
 						<span class="events_meta">7PM&nbsp;&nbsp;|&nbsp;&nbsp;Location</span><!-- events_meta -->
 						
-						<div class="event_description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </div><!-- event_description -->
+						<div class="event_description">
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+							
+							<ul>
+								<li>sectetuer adipiscing elit, sed dia</li>
+								<li>se tet uer adi pis cing elit, sed dia</li>
+								<li>dolt, consectetuer adipiscing elit, sed diam nonumm</li>
+								<li>dolor sit amet, consectetuer adipiscing elit, sed diam nonumm</li>
+							</ul>
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+						
+						
+						</div><!-- event_description -->
 						
 						<div class="event_buttons">
 							
@@ -201,7 +281,23 @@
 						
 						<span class="events_meta">7PM&nbsp;&nbsp;|&nbsp;&nbsp;Location</span><!-- events_meta -->
 						
-						<div class="event_description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </div><!-- event_description -->
+						<div class="event_description">
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+							
+							<ul>
+								<li>sectetuer adipiscing elit, sed dia</li>
+								<li>se tet uer adi pis cing elit, sed dia</li>
+								<li>dolt, consectetuer adipiscing elit, sed diam nonumm</li>
+								<li>dolor sit amet, consectetuer adipiscing elit, sed diam nonumm</li>
+							</ul>
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+							
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p> 
+						
+						
+						</div><!-- event_description -->
 						
 						<div class="event_buttons">
 							

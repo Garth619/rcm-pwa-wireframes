@@ -3,14 +3,16 @@
 	include('functions.php');
 	include('header.php');?>
 	
-	<section id="home" class="section_template">
+	
+	
+	<section id="default_template" class="section_template">
 		
 		
-		<div id="inner_home">
+		<div class="inner_default_page">
 			
 			<img class="banner" src="<?php echo $path;?>/images/banner.jpg"/>
 			
-			<div class="home_content content">
+			<div class="default_content content">
 				
 				<span class="sub_title">Lorem Ipsum Dolor Site</span><!-- sub_title -->
 				
@@ -22,11 +24,11 @@
 				
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 				
-			</div><!-- home_content -->
+			</div><!-- default_content -->
 			
-		</div><!-- inner_home -->
+		</div><!-- inner_default_page -->
 		
-	</section><!-- home -->
+	</section><!-- inner_default_page -->
 
 	
 <?php
