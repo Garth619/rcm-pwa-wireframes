@@ -29,7 +29,7 @@
 					
 				</div><!-- search_settings -->
 				
-			</div><!-- input_wrapper -->
+			</div><!-- shop_input_wrapper -->
 			
 			<div class="product_feed">
 					

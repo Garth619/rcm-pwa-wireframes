@@ -13,11 +13,11 @@
 
 <section id="single_product" class="section_template">
 	
-	<div class="inner_section">
+	
 			
 		<div class="back_to_shop_wrapper">
 			
-			<a class="" href="<?php echo $path;?>/templates/shop.php"">
+			<a class="" href="<?php echo $path;?>/templates/shop.php">
 			
 				<span class="circle_button back_to_shop">
 		
@@ -75,17 +75,179 @@
 						</ul>
 						
 					</div><!-- ratings -->
+					
+					<h2>Customer Reviews</h2>
+					
+					<div class="single_product_review_wrapper">
+						
+						<div class="single_product_review">
+							
+							<span class="single_product_review_name">Garrett Cullen</span><!-- single_product_review_name -->
+							
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
+							<div class="rating_icons">
+								
+								<div class="rating_active">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->
+								
+								<div class="rating_active">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->
+								
+								<div class="rating_active">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->
+								
+								<div class="">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->						
+								
+								<div class="">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->
+								
+							</div><!-- rating_icons -->
+							
+						</div><!-- single_product_review -->
+						
+						<div class="single_product_review">
+							
+							<span class="single_product_review_name">Jason Monsef</span><!-- single_product_review_name -->
+							
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
+							<div class="rating_icons">
+								
+								<div class="rating_active">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->
+								
+								<div class="rating_active">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->
+								
+								<div class="rating_active">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->
+								
+								<div class="">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->						
+								
+								<div class="">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->
+								
+							</div><!-- rating_icons -->
+							
+						</div><!-- single_product_review -->
+						
+						<div class="single_product_review">
+							
+							<span class="single_product_review_name">Rosa Romaine</span><!-- single_product_review_name -->
+							
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
+							<div class="rating_icons">
+								
+								<div class="rating_active">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->
+								
+								<div class="rating_active">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->
+								
+								<div class="rating_active">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->
+								
+								<div class="">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->						
+								
+								<div class="">
+								
+									<?php echo file_get_contents("" . $path ."/images/weed-icon.svg"); ?>
+								
+								</div><!-- rating_active -->
+								
+							</div><!-- rating_icons -->
+							
+						</div><!-- single_product_review -->
+						
+						<span class="see_all_reviews">See All Reviews...</span><!-- see_all_reviews -->
+						
+					</div><!-- single_product_review_wrapper -->
 				
 				</div><!-- single_product_content -->
-				
-				
 				
 			</div><!-- single_product_info -->
 			
 		</div><!-- single_product_wrapper -->
+		
+		<div class="related_products">
+			
+			<div class="related_products_inner">
+				
+				<span class="shop_title">Shop</span><!-- section_title -->
+			
+				<div class="shop_input_wrapper">
+				
+					<form>
+				
+						<input name="search" type="text" placeholder="Search">
+				
+					</form>
+				
+					<div class="search_settings">
+					
+						<?php echo file_get_contents("" . $path . "/images/settings.svg"); ?>
+					
+					</div><!-- search_settings -->
+				
+				</div><!-- shop_input_wrapper -->
+				
+				
+				<?php include('related_products.php');?>
+					
+			</div><!-- related_products_inner -->
+				
+		</div><!-- related_products -->
 	
-	</div><!-- inner_section -->
+	</section><!-- single_product -->
 	
-</section><!-- single_product -->
+	<div class="add_to_cart_wrapper">
+		
+		<span class="add_to_cart_title">Add To Cart</span><!-- add_to_cart_title -->
+		
+	</div><!-- add_to_cart -->
 
 <?php include('footer.php');?>

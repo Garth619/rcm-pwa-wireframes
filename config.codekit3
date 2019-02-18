@@ -912,20 +912,6 @@
 		"oAP": "/templates/loyalty-punchcard.php",
 		"oF": 0
 		},
-	"/templates/loyalty-single-deal copy.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/templates/loyalty-single-deal copy.php",
-		"oF": 0
-		},
-	"/templates/loyalty-single-deal-v2 copy.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/templates/loyalty-single-deal-v2 copy.php",
-		"oF": 0
-		},
 	"/templates/loyalty-single-deal-v2.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -959,6 +945,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/promo.php",
+		"oF": 0
+		},
+	"/templates/related_products.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/related_products.php",
 		"oF": 0
 		},
 	"/templates/shop.php": {
