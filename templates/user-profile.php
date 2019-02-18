@@ -59,7 +59,7 @@
 			
 			<h1 class="user_title">Garrett Cullen</h1><!-- user_title -->
 			
-			<div class="user_profile_name_wrapper">
+			<div class="user_profile_info_wrapper">
 				
 				<div class="user_profile_single_input">
 					
@@ -81,19 +81,89 @@
 					
 					<span class="user_profile_input_title">Last Name</span><!-- user_profile_input_title -->
 					
-					<div class="user_edit_wrapper">
-						
-						<span>Edit</span>
-						
-						<?php echo file_get_contents("" . $path . "/images/edit.svg"); ?>
-						
-					</div><!-- user_edit_wrapper -->
-					
 					<input placeholder="Cullen" value="Cullen" type="text">
 					
 				</div><!-- user_profile_single_input -->
 				
-			</div><!-- user_profile_name_wrapper -->
+			</div><!-- user_profile_info_wrapper -->
+			
+			<h2 class="user_profile_h2">Additional Info</h2><!-- user_profile_h2 -->
+			
+			<div class="user_profile_info_wrapper">
+				
+				<div class="user_profile_single_input">
+					
+					<span class="user_profile_input_title">Phone</span><!-- user_profile_input_title -->
+					
+					<input placeholder="(619) 925-3611" value="(619) 925-3611" type="text">
+					
+				</div><!-- user_profile_single_input -->
+				
+				<div class="user_profile_single_input">
+					
+					<span class="user_profile_input_title">Address</span><!-- user_profile_input_title -->
+					
+					<textarea class="address_input" placeholder="5050 Cass St. Apt 17 San Diego, CA 92109" value="5050 Cass St. Apt 17 San Diego, CA 92109" type="text"></textarea>
+					
+				</div><!-- user_profile_single_input -->
+				
+			</div><!-- user_profile_info_wrapper -->
+			
+			<h2 class="user_profile_h2">Reward Points</h2><!-- user_profile_h2 -->
+			
+			<div class="user_profile_rewards_wrapper">
+				
+				<span class="user_profile_points">18/25</span><!-- user_profile_points -->
+				
+				<span class="user_profile_points_title">Points</span><!-- user_profile_points_title -->
+				
+			</div><!-- user_profile_rewards_wrapper -->
+			
+			<h2 class="user_profile_h2">Order History</h2><!-- user_profile_h2 -->
+			
+			<div class="order_history">
+				
+				<div class="order_history_row">
+					
+					<span class="order_history_product_title">Product Title</span><!-- order_history_product_title -->
+					
+					<span class="order_history_product_date">7.6.18</span><!-- order_history_product_date -->
+					
+				</div><!-- order_history_row -->
+				
+				<div class="order_history_row">
+					
+					<span class="order_history_product_title">Product Title</span><!-- order_history_product_title -->
+					
+					<span class="order_history_product_date">7.6.18</span><!-- order_history_product_date -->
+					
+				</div><!-- order_history_row -->
+				
+				<div class="order_history_row">
+					
+					<span class="order_history_product_title">Product Title</span><!-- order_history_product_title -->
+					
+					<span class="order_history_product_date">7.6.18</span><!-- order_history_product_date -->
+					
+				</div><!-- order_history_row -->
+				
+				<div class="order_history_row">
+					
+					<span class="order_history_product_title">Product Title</span><!-- order_history_product_title -->
+					
+					<span class="order_history_product_date">7.6.18</span><!-- order_history_product_date -->
+					
+				</div><!-- order_history_row -->
+				
+				<div class="order_history_row">
+					
+					<span class="order_history_product_title">Product Title</span><!-- order_history_product_title -->
+					
+					<span class="order_history_product_date">7.6.18</span><!-- order_history_product_date -->
+					
+				</div><!-- order_history_row -->
+				
+			</div><!-- order_history -->
 		
 		</div><!-- user_profile_inner -->
 		

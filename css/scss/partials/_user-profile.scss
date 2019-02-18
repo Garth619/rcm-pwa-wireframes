@@ -6,7 +6,7 @@
 .user_profile_inner {
 	position: relative;
 	z-index:1;
-	padding:0 38px;
+	padding:0 38px 55px;
 }
 
 
@@ -53,7 +53,7 @@ h1.user_title {
 }
 
 
-.user_profile_name_wrapper {
+.user_profile_info_wrapper {
 	margin:55px 0 0;
 }
 
@@ -62,7 +62,8 @@ h1.user_title {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap:wrap;
-	margin-bottom:25px;
+	align-items: flex-end;
+	margin-bottom:30px;
 	span.user_profile_input_title {
 		color:#fff;
 		text-transform: uppercase;
@@ -73,7 +74,7 @@ h1.user_title {
 	}
 	.user_edit_wrapper {
 		display: flex;
-		align-items: center;
+		align-items: flex-end;
 		span {
 			color:#fff;
 			text-transform: uppercase;
@@ -84,12 +85,12 @@ h1.user_title {
 		}
 		svg {
 			fill:$pinklight;
-			width:21px;
-			height:21px;
+			width:19px;
+			height:19px;
 			margin-left:10px;
 		}
 	}
-	input {
+	input, textarea {
 		flex-basis:100%;
 		margin-top:0px;
 		background: #fff;
@@ -102,5 +103,75 @@ h1.user_title {
 		letter-spacing: 0.09em;
 		padding:7px 0px;
 		background:transparent;
+	}
+	::-webkit-input-placeholder {
+		color: $grey;
+	}
+	::-moz-placeholder {
+		color: $grey;
+	}
+	:-moz-placeholder {
+		color: $grey;
+	}
+	:-ms-input-placeholder {
+		color: $grey;
+	}
+	::-moz-placeholder {
+		opacity: 1;
+	}
+}
+
+h2.user_profile_h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color:$pinklight;
+	font-size: 17px;
+	letter-spacing: 0.12em;
+	font-family: $muli;
+	font-weight: 700;
+	display: block;
+	padding-top:40px;
+}
+
+
+.user_profile_rewards_wrapper {
+	text-align: center;
+	margin:39px 0 25px;
+	span {
+		display: block;
+	}
+	span.user_profile_points {
+		color:#fff;
+		font-size: 18px;
+		letter-spacing: 0.2em;
+		font-family: $muli;
+		font-weight: 600;
+	}
+	span.user_profile_points_title {
+		color:$grey;
+		text-transform: uppercase;
+		font-size:17px;
+		letter-spacing: 0.07em;
+		font-family: $muli;
+		font-weight: 600;
+		margin-top:7px;
+	}
+}
+
+
+.order_history {
+	margin-top:34px;
+	.order_history_row {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom:24px;
+		span {
+			color:#fff;
+			text-transform: uppercase;
+			font-size: 16px;
+			letter-spacing: 0.12em;
+			font-family: $muli;
+			font-weight:600;
+		}
 	}
 }
