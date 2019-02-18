@@ -4,7 +4,6 @@
 	include('header.php');?>
 	
 	
-	<!-- sticky reg header -->
 	
 	<div id="svg_header">
 			
@@ -14,8 +13,6 @@
 	
 	<section id="shop">
 		
-		
-			
 			<h1 class="section_title">Shop</h1><!-- section_title -->
 			
 			<div class="shop_input_wrapper">
@@ -50,19 +47,23 @@
 							
 							<div class="single_product">
 								
-								<div class="product_img_wrapper">
-									
-									<div class="see_more_icon"></div><!-- see_more_icon -->
-									
-									<img src="<?php echo $path;?>/images/flower.jpg"/>
-									
-								</div><!-- product_img_wrapper -->
+								<a class="" href="<?php echo $path;?>/templates/single_product.php">
 								
-								<span class="product_price">$25</span><!-- product_price -->
+									<div class="product_img_wrapper">
+									
+										<div class="see_more_icon"></div><!-- see_more_icon -->
+									
+										<img src="<?php echo $path;?>/images/flower.jpg"/>
+									
+										</div><!-- product_img_wrapper -->
 								
-								<span class="product_name">Product Name</span><!-- product_name -->
+										<span class="product_price">$25</span><!-- product_price -->
 								
-								<span class="company_name">Company Name</span><!-- company_name -->
+										<span class="product_name">Product Name</span><!-- product_name -->
+								
+										<span class="company_name">Company Name</span><!-- company_name -->
+								
+								</a>
 								
 							</div><!-- single_product -->
 							
@@ -524,7 +525,5 @@
 				</div><!-- product_feed -->
 			
 	</section><!-- shop -->
-	
-<?php include('single_product.php');?>
 	
 <?php include('footer.php');?>
