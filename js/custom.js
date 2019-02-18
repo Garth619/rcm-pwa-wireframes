@@ -427,6 +427,21 @@ jQuery(document).ready(function($){
 		$(this).removeClass('open');
 	
 	});
+	
+	
+	// add to cart
+	
+	$('.add_to_cart_wrapper').on('click', function(e) {
+	  
+	 	$('span.add_to_cart_title').fadeOut(300);
+	  
+	  $('span.added').delay(350).fadeIn(300).delay(1000).fadeOut(300);
+	  
+	  $('span.checkout').delay(1950).fadeIn(300);
+	  
+	  $('.checkout_amount').addClass('added');
+	  
+	});
 
 
 }); // Document Ready

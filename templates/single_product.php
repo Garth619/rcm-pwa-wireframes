@@ -246,8 +246,22 @@
 	
 	<div class="add_to_cart_wrapper">
 		
-		<span class="add_to_cart_title">Add To Cart</span><!-- add_to_cart_title -->
+		<div class="add_to_cart_inner">
 		
-	</div><!-- add_to_cart -->
+			<span class="add_to_cart_title">Add To Cart</span><!-- add_to_cart_title -->
+		
+			<span class="added">Added!</span><!-- added -->
+		
+			<span class="checkout">Checkout</span><!-- checkout -->
+		
+			<div class="checkout_amount">
+			
+					<div>$25</div>
+			
+			</div><!-- checkout_amount -->
+		
+		</div><!-- add_to_cart_inner -->
+		
+	</div><!-- add_to_cart_wrapper -->
 
 <?php include('footer.php');?>
