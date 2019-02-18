@@ -1,0 +1,144 @@
+#leave_a_review {
+	padding-bottom:55px;
+	h1.section_title {
+		text-align: center;
+	}
+}
+
+.inner_leave_review {
+	padding:0 38px;
+	max-width:410px;
+	margin:0 auto;
+}
+
+
+.review_social_media {
+	display: flex;
+	justify-content: center;
+	margin:30px 0 0;
+	a {
+		text-decoration: none;
+		margin:0 15px;
+		text-align: center;
+		svg {
+			height:45px;
+			width:75px;
+			display: block;
+			margin:0 auto;
+		}
+		span {
+			display: block;
+			text-transform: uppercase;
+			font-size:12px;
+			font-family: $muli;
+			font-weight:600;
+			letter-spacing: 0.12em;
+			margin-top:15px;
+		}
+		span.fb {
+			color: $bluelight;
+		}
+		span.google {
+			color:$teal;
+		}
+		span.yelp {
+			color:#c42628;
+		}
+	}
+}
+
+
+.feedback_wrapper {
+	margin:70px 0 0;
+	h2.feedback_header {
+		font-size: 21px;
+    font-family: $muli;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    line-height: 26px;
+    text-align: center;
+	}
+	span.feedback_subheader {
+		color:$teal;
+		text-align: center;
+		display: block;
+		text-transform: uppercase;
+		font-family: $muli;
+		font-size:17px;
+		margin-top:4px;
+		letter-spacing: 0.08em;
+	}
+}
+
+.review_form {
+	margin:55px 0 0;
+	form {
+		ul {
+			list-style: none;
+			margin:0;
+			li {
+				margin-bottom:26px;
+				position: relative;
+				&:last-of-type {
+					padding-top:17px;
+					&:after {
+						display: none;
+					}
+				}
+				&:after {
+					content:"*";
+					color:$teal;
+					font-family: $muli;
+					font-size:16px;
+					font-weight: 600;
+					position: absolute;
+					top:4px;
+					right:0;
+				}
+				label {
+					display: block;
+					color:#fff;
+					text-transform: uppercase;
+					font-size:16px;
+					letter-spacing: 0.2em;
+					font-family: $muli;
+					font-weight:600;
+				}
+				input[type="text"],textarea {
+						display: block;
+						background: transparent;
+						border:none;
+						border-bottom:2px solid #fff;
+						font-size:18px;
+						font-family: $muli;
+						font-weight:600;
+						color:$grey;
+						width:100%;
+						padding:8px 0;
+				}
+				textarea {
+					height:130px;
+				}
+				input[type="submit"] {
+					color:#fff;
+					background:$purple_pink;
+					border:none;
+					text-transform: uppercase;
+					font-size:20px;
+					letter-spacing: 0.1em;
+					text-align: center;
+					margin:0 auto;
+					display: block;
+					width:100%;
+					padding:15px 10px;
+					border-radius: 35px;
+					font-family: $muli;
+					font-weight: 600;
+					
+				}
+			}
+		}
+	}
+}

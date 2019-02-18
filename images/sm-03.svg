@@ -1,0 +1,15 @@
+<svg id="fb" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 44.42 93.8">
+  <defs>
+    <style>
+      .fb-cls-1 {
+        fill: url(#linear-gradient-fb);
+      }
+    </style>
+    <linearGradient id="linear-gradient-fb" x1="0.35" y1="20.28" x2="51.23" y2="71.16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08aac4"/>
+      <stop offset="1" stop-color="#3e74b9"/>
+    </linearGradient>
+  </defs>
+  <title>sm</title>
+  <path class="fb-cls-1" d="M10.09,93.14H29.24V46.78H42l1.7-16H29.24l0-8c0-4.16.4-6.4,6.38-6.4h8V.43H30.84C15.49.43,10.09,8.19,10.09,21.22v9.59H.52v16h9.57Z"/>
+</svg>
