@@ -7,7 +7,36 @@
 	
 	<div id="svg_header">
 			
-		<?php echo file_get_contents("" . $path . "/images/mobile_header_shapes.svg"); ?>
+		<svg id="header_gradient" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" viewBox="0 0 510.61 234.5">
+  <defs>
+    <style>
+      .header_gradient-cls-1 {
+        fill: #04aac5;
+      }
+
+      .header_gradient-cls-1, .header_gradient-cls-2 {
+        opacity: 0.43;
+      }
+
+      .header_gradient-cls-2 {
+        fill: #377cbf;
+      }
+
+      .header_gradient-cls-3 {
+        fill: url(#header-gradient);
+      }
+    </style>
+    <linearGradient id="header-gradient" x1="90.09" y1="-90.17" x2="434.1" y2="253.84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#09a5c3"/>
+      <stop offset="1" stop-color="#3e77be"/>
+    </linearGradient>
+  </defs>
+  <title>mobile_header_shapes</title>
+  <path class="header_gradient-cls-1" d="M-1,228.63s79,6.59,135.45-60-134.64-49-134.64-49Z"/>
+  <path class="header_gradient-cls-2" d="M328.52,185.75s97.1-17.17,182.31,44.26V132.25S398.53,127.63,328.52,185.75Z"/>
+  <path class="header_gradient-cls-3" d="M510.79.07H-.14v150s146,130,331,40c69.38-33.75,129.33-30.8,177.17-13.93l2.76,1Z"/>
+</svg>
+
 		
 	</div><!-- svg_header -->
 

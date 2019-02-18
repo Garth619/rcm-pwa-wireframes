@@ -6,7 +6,7 @@
 		
 			<div class="menu_profile">
 				
-				<a href="">
+				<a href="<?php echo $path;?>/templates/user-profile.php">
 					
 					<img src="<?php echo $path;?>/images/g.jpg"/>
 					

@@ -1,0 +1,106 @@
+#user_profile {
+	
+}
+
+
+.user_profile_inner {
+	position: relative;
+	z-index:1;
+	padding:0 38px;
+}
+
+
+.user_profile_wrapper {
+	text-align: center;
+	position: relative;
+	width:175px;
+	height:175px;
+	margin:105px auto 0;
+	img {
+		width:175px;
+		height:175px;
+		display: block;
+		border-radius: 50%;
+		border:3px solid #fff;
+	}
+	.camera_icon {
+		background: #fff;
+		width:35px;
+		height:35px;
+		border-radius: 50%;
+		position: absolute;
+		bottom:0;
+		right:21px;
+		svg {
+			width:21px;
+			height:21px;
+			margin:7px 0 0 0px;
+		}
+	}
+}
+
+
+h1.user_title {
+	color:$pinklight;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 0.12em;
+	font-family: $muli;
+	font-weight:700;
+	display: block;
+	text-align: center;
+	margin:20px 0 0;
+}
+
+
+.user_profile_name_wrapper {
+	margin:55px 0 0;
+}
+
+
+.user_profile_single_input {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+	margin-bottom:25px;
+	span.user_profile_input_title {
+		color:#fff;
+		text-transform: uppercase;
+		font-size: 16px;
+		letter-spacing: 0.2em;
+		font-family: $muli;
+		font-weight: 600;
+	}
+	.user_edit_wrapper {
+		display: flex;
+		align-items: center;
+		span {
+			color:#fff;
+			text-transform: uppercase;
+			font-family: $muli;
+			font-weight: 600;
+			letter-spacing: 0.12em;
+			font-size: 14px;
+		}
+		svg {
+			fill:$pinklight;
+			width:21px;
+			height:21px;
+			margin-left:10px;
+		}
+	}
+	input {
+		flex-basis:100%;
+		margin-top:0px;
+		background: #fff;
+		border:none;
+		border-bottom:2px solid #fff;
+		color:$grey;
+		font-size:18px;
+		font-family: $muli;
+		font-weight: 600;
+		letter-spacing: 0.09em;
+		padding:7px 0px;
+		background:transparent;
+	}
+}
