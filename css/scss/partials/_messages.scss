@@ -38,10 +38,13 @@
 	width:100%;
 	height:100vh;
 	background:$black;
+	padding-bottom:55px;
 	z-index: 7;
-	//transform: translateX(100%);
+	transform: translateX(100%);
 	transition: all 600ms cubic-bezier(.17,.66,.34,.98);
 	transition-delay: 400ms;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 .message_wrapper.open {
@@ -112,6 +115,7 @@ span.thread_names {
 
 
 .single_comment {
+	margin-bottom:45px;
 	span.comment_date {
 		display: block;
 		text-align: center;
@@ -120,7 +124,7 @@ span.thread_names {
 		letter-spacing: 0.12em;
 		font-family: $muli;
 		font-weight:600;
-		margin-bottom:25px;
+		margin-bottom:15px;
 	}
 	.comment_wrapper {
 		display: flex;
@@ -138,6 +142,7 @@ span.thread_names {
 			}
 		}
 		.comment_bubble_wrapper {
+			flex-grow: 1;
 			.comment_bubble {
 				color:#fff;
 				font-size:14px;
