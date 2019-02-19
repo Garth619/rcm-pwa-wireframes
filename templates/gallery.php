@@ -126,10 +126,6 @@
 			
 	</section>
 		
-
+<?php include('messages.php');?>
 		
-		
-	
-<?php
-	
-	include('footer.php');?>
+<?php include('footer.php');?>

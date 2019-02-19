@@ -131,4 +131,6 @@ s(".product_close").on("click",function(e){s(".version_one, .version_two, .produ
 // gallery
 s(".single_gallery").on("click",function(e){s(".gallery_overlay").addClass("open")}),s(".gallery_overlay").on("click",function(e){s(this).removeClass("open")}),
 // add to cart
-s(".add_to_cart_wrapper").on("click",function(e){s("span.add_to_cart_title").fadeOut(300),s("span.added").delay(350).fadeIn(300).delay(1e3).fadeOut(300),s("span.checkout").delay(1950).fadeIn(300),s(".checkout_amount").addClass("added")})});// Document Ready
+s(".add_to_cart_wrapper").on("click",function(e){s("span.add_to_cart_title").fadeOut(300),s("span.added").delay(350).fadeIn(300).delay(1e3).fadeOut(300),s("span.checkout").delay(1950).fadeIn(300),s(".checkout_amount").addClass("added")}),
+// chat
+s(".chat_wrapper").on("click",function(e){s(this).addClass("open"),s(".message_wrapper").addClass("open")}),s(".message_close").on("click",function(e){s(".message_wrapper, .chat_wrapper").removeClass("open")})});// Document Ready

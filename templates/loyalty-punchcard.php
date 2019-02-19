@@ -48,8 +48,6 @@
 		
 	</section><!-- loyalty_punchcard -->
 	
+
 	
-	
-<?php
-	
-	include('footer.php');?>
+<?php include('footer.php');?>

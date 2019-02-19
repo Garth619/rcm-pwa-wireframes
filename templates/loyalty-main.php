@@ -28,8 +28,8 @@
 
 		</section><!-- loyalty_main -->
 		
-		<?php include('loyalty-feed.php');?>
+<?php include('loyalty-feed.php');?>
 		
-		
+<?php include('messages.php');?>	
 	
 <?php include('footer.php');?>

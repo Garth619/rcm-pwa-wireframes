@@ -442,6 +442,25 @@ jQuery(document).ready(function($){
 	  $('.checkout_amount').addClass('added');
 	  
 	});
+	
+	
+	// chat
+	
+	$('.chat_wrapper').on('click', function(e) {
+		
+		$(this).addClass('open');
+	  
+		$('.message_wrapper').addClass('open');
+	
+	});
+	
+	
+	$('.message_close').on('click', function(e) {
+	  
+		$('.message_wrapper, .chat_wrapper').removeClass('open');
+	
+	});
+	
 
 
 }); // Document Ready
