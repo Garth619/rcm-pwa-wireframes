@@ -68,6 +68,8 @@
 .message_inner {
 	position: relative;
 	padding:65px 38px;
+	max-width:600px;
+	margin:0 auto;
 }
 
 
@@ -80,6 +82,7 @@
   top: 20px;
   left: 30px;
   cursor: pointer;
+  z-index: 1;
   &:before, &:after {
 	  content: "";
     display: block;

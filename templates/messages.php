@@ -6,9 +6,9 @@
 
 <div class="message_wrapper">
 	
+	<div class="message_close"></div><!-- message_close -->
+	
 	<div class="message_inner">
-		
-		<div class="message_close"></div><!-- message_close -->
 		
 		<h1 class="section_title">Messages</h1>
 		
@@ -70,7 +70,7 @@
 			
 			<div class="single_comment user">
 				
-				<span class="comment_date">2.18.19 8:26pm</span><!-- comment_date -->
+				<span class="comment_date">2.18.19 8:42pm</span><!-- comment_date -->
 				
 				<div class="comment_wrapper">
 					
@@ -96,7 +96,7 @@
 			
 			<div class="single_comment admin">
 				
-				<span class="comment_date">2.18.19 8:35pm</span><!-- comment_date -->
+				<span class="comment_date">2.18.19 8:47pm</span><!-- comment_date -->
 				
 				<div class="comment_wrapper">
 					
