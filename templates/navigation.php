@@ -148,7 +148,7 @@
 				
 				<li>
 					
-					<a href="">
+					<a href="<?php echo $path;?>/templates/contact.php">
 						
 						<span class="menu_icon">
 							

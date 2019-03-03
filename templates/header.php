@@ -59,7 +59,7 @@
 		
 		<div class="contact_icon">
 			
-			<a href="">
+			<a href="<?php echo $path;?>/templates/contact.php">
 				
 				<?php echo file_get_contents("" . $path . "/images/icon-phone.svg"); ?>
 				

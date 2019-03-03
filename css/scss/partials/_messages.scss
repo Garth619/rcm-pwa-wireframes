@@ -62,6 +62,12 @@
 			transform:rotate(-45deg);
 		}
 	}
+	.message_inner {
+		transform: translateY(0);
+    transition-delay: 700ms;
+    opacity: 1;
+    visibility: visible;
+	}
 }
 
 
@@ -70,6 +76,10 @@
 	padding:65px 38px;
 	max-width:600px;
 	margin:0 auto;
+	transition: transform 800ms cubic-bezier(0.17, 0.66, 0.34, 0.98),opacity 300ms linear,visibility 300ms linear;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(-25px);
 }
 
 
