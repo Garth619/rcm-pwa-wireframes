@@ -108,6 +108,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/css/scss/partials/_login.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/partials/_login.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/css/scss/partials/_loyalty-main.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1036,6 +1049,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/leave-a-review.php",
+		"oF": 0
+		},
+	"/templates/login.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/login.php",
 		"oF": 0
 		},
 	"/templates/loyalty-feed.php": {

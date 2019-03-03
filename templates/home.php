@@ -30,6 +30,8 @@
 		
 	</section><!-- inner_default_page -->
 
+<?php include('login.php');?>
+
 <?php include('messages.php');?>
 	
 <?php include('footer.php');?>
