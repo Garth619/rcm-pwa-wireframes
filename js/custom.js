@@ -461,6 +461,19 @@ jQuery(document).ready(function($){
 	
 	});
 	
+	
+	// home login prompt 
+	
+	
+	$('#login').addClass('ready');
+	
+	
+	$('.login_close_wrapper').on('click', function(e) {
+	  
+		$('#login').removeClass('ready');
+	
+	});
+	
 
 
 }); // Document Ready
