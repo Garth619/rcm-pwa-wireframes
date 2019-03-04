@@ -14,11 +14,55 @@
 		
 		<div class="redeem_top"></div>
 	
-		<div class="redeem_left"></div>
+		<div class="redeem_left">
+			
+			<div class="top_left">
+			
+				<?php echo file_get_contents("" . $path . "/images/redeem_corner.svg"); ?>
+			
+			</div><!-- top_left -->
+			
+			<div class="bottom_left">
+			
+				<?php echo file_get_contents("" . $path . "/images/redeem_corner.svg"); ?>
+			
+			</div><!-- bottom_left -->
+			
+		</div><!-- redeem_left -->
 	
-		<div class="redeem_right"></div>
+		<div class="redeem_right">
+			
+			<div class="top_right">
+			
+				<?php echo file_get_contents("" . $path . "/images/redeem_corner.svg"); ?>
+				
+				<div class="qr_options">
+					
+					<div class="qr_option_button">
+						
+						<?php echo file_get_contents("" . $path . "/images/flash.svg"); ?>
+						
+					</div><!-- qr_option_button -->
+					
+					<div class="qr_option_button">
+						
+						<span>?</span>
+						
+					</div><!-- qr_option_button -->
+					
+				</div><!-- qr_options -->
+			
+			</div><!-- top_right -->
+			
+			<div class="bottom_right">
+			
+				<?php echo file_get_contents("" . $path . "/images/redeem_corner.svg"); ?>
+			
+			</div><!-- bottom_right -->
+			
+		</div><!-- redeem_right -->
 	
-		<div class="redeem_bottom"></div>
+		<div class="redeem_bottom"></div><!-- redeem_bottom -->
 
 	</div><!-- redeem_inner -->
 	
