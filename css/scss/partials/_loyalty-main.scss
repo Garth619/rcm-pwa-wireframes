@@ -58,7 +58,7 @@ a.loyalty.milestone {
 
 .tab_close {
 	position: absolute;
-	top: 15px;
+	top: 23px;
 	left:20px;
 	transform: translateX(-30px);
 	opacity: 0;
@@ -106,14 +106,14 @@ a.loyalty.milestone {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 15px 0 9px;
+	padding: 24px 0 15px;
 	position: fixed;
-	top:69px;
+	top:0px;
 	background:$darkgrey;
 	left:0;
 	width:100%;
 	border-bottom:1px solid $grey;
-	z-index:11;
+	z-index:100;
 	transform: translateX(100%);
 	transition: transform 600ms cubic-bezier(.17,.66,.34,.98);
 	transition-delay: 200ms;
@@ -162,13 +162,13 @@ a.loyalty.milestone {
 	padding-bottom:55px;
 	background: $darkgrey;
 	position: fixed;
-	top:70px;
+	top: 65px;
 	left:0;
 	width:100%;
 	height:100%;
-	z-index: 10;
+	z-index: 101;
 	overflow-y: scroll;
-	padding-top:60px;
+	padding-top:30px;
 	transform: translateX(100%);
 	transition: all 600ms cubic-bezier(.17,.66,.34,.98);
 	transition-delay: 200ms;
@@ -192,7 +192,7 @@ a.loyalty.milestone {
 	margin:0;
 	padding:0 20px;
 	position: absolute;
-	top:57px;
+	
 	left:0;
 	width:100%;
 	height: 100vh;
@@ -213,10 +213,11 @@ a.loyalty.milestone {
 
 .loyalty_feed.rewards {
 	padding-top: 23px;
+	top: 12px;
 }
 
 .loyalty_feed.milestone {
-	
+	top:40px;
 }
 
 
@@ -319,10 +320,10 @@ a.loyalty.milestone {
 
 #graph_list_view_wrapper {
 	position: fixed;
-	top: 119px;
+	top: 65px;
 	right:0px;
-	padding:0px 20px;
-	z-index:11;
+	padding:0px 26px;
+	z-index:105;
 // 	border-bottom:1px solid $grey;
 	background: $darkgrey;
 	width:100%;
@@ -612,6 +613,7 @@ span.current_points_graphline {
 
 
 .milestone_inner_feed {
+	   
 	.loyalty_single_row {
 		.loyalty_single_left {
 			.loyalty_product_wrapper {
@@ -654,7 +656,7 @@ span.current_points_graphline {
 
 .milestone_inner_feed {
 	position: absolute;
-	top:55px;
+	top:25px;
 	left:0;
 	width:100%;
 	padding:0 20px;
