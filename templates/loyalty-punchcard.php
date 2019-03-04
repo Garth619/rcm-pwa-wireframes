@@ -48,6 +48,6 @@
 		
 	</section><!-- loyalty_punchcard -->
 	
-
+<?php include('redeem_overlay.php');?>
 	
 <?php include('footer.php');?>
