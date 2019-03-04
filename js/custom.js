@@ -474,6 +474,22 @@ jQuery(document).ready(function($){
 	
 	});
 	
+	
+	// redeem overlay
+	
+	$('a.redeem_trigger').on('click', function(e) {
+	  
+		$('#redeem').addClass('open');
+	
+	});
+	
+	
+	$('.redeem_close').on('click', function(e) {
+		
+		$('#redeem').removeClass('open');
+	  
+	});
+	
 
 
 }); // Document Ready

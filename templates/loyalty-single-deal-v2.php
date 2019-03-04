@@ -30,7 +30,7 @@
 				
 			</div><!-- single_product_description -->
 							
-			<a class="redeem_button">
+			<a class="redeem_button redeem_trigger">
 				
 				<span>Redeem</span>
 				

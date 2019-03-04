@@ -34,7 +34,7 @@
 				
 			</div><!-- punchcard_wrapper -->
 			
-			<a class="redeem_button">
+			<a class="redeem_button redeem_trigger">
 				
 				<span>Redeem</span>
 				

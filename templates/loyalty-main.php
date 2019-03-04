@@ -30,6 +30,8 @@
 		
 <?php include('loyalty-feed.php');?>
 		
-<?php include('messages.php');?>	
+<?php include('messages.php');?>
+
+<?php include('redeem_overlay.php');?>
 	
 <?php include('footer.php');?>

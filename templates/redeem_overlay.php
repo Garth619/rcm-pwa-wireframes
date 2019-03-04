@@ -1,8 +1,10 @@
 <section id="redeem">
 	
+	<div class="redeem_close"></div><!-- message_close -->
+	
 	<div class="redeem_inner">
 		
-		<div class="message_close"></div><!-- message_close -->
+		
 		
 		<div class="redeem_inner_content">
 		
