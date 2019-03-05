@@ -7,7 +7,7 @@
 		
 		<div class="inner_leave_review">
 		
-			<h1 class="section_title">Leave a Review</h1><!-- section_title -->
+			<span class="review_verbiage">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span><!-- review_verbiage -->
 			
 			<div class="review_social_media">
 				

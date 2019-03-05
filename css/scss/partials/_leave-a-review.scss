@@ -5,6 +5,16 @@
 	}
 }
 
+span.review_verbiage {
+	color:#fff;
+	font-family: $muli;
+	text-align: center;
+	display: block;
+	font-size: 16px;
+	line-height: 23px;
+	padding-bottom:30px;
+}
+
 .inner_leave_review {
 	padding:0 38px;
 	max-width:410px;
@@ -49,7 +59,7 @@
 
 
 .feedback_wrapper {
-	margin:70px 0 0;
+	margin:90px 0 0;
 	h2.feedback_header {
 		font-size: 21px;
     font-family: $muli;
@@ -64,7 +74,7 @@
 		color:$teal;
 		text-align: center;
 		display: block;
-		text-transform: uppercase;
+		//text-transform: uppercase;
 		font-family: $muli;
 		font-size:17px;
 		margin-top:4px;
