@@ -490,6 +490,13 @@ jQuery(document).ready(function($){
 	  
 	});
 	
+	
+	$('a.scan_button').on('click', function(e) {
+	  
+		$('svg.redeem_corner').toggleClass('success');
+	
+	});
+	
 
 
 }); // Document Ready

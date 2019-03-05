@@ -11,6 +11,18 @@
 			<h1 class="section_title">Free Disposable Pen</h1><!-- section_title -->
 			
 			<span class="redeem_subtitle">Scan Our QR Code to Redeem!</span><!-- redeem_subtitle -->
+			
+			<a class="scan_button">
+			
+				<span class="scan_title">Scan</span>
+			
+				<div>
+				
+					<?php echo file_get_contents("" . $path . "/images/camera.svg"); ?> 
+			
+				</div>
+			
+			</a><!-- scan_button -->
 		
 		</div><!-- redeem_inner_content -->
 		
@@ -65,6 +77,8 @@
 		</div><!-- redeem_right -->
 	
 		<div class="redeem_bottom"></div><!-- redeem_bottom -->
+		
+		
 
 	</div><!-- redeem_inner -->
 	
